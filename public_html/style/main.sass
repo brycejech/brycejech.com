@@ -39,13 +39,15 @@ body
         padding: 0
         width: 85%
 
+        // Nav Color Customizations
         &:first-child
-        .nav-icon
-            color: $blue
-        &.active
-            a
-                border-bottom: 1px solid $blue
+            .nav-icon
                 color: $blue
+            &.active
+                a
+                    border-bottom: 1px solid $blue
+                    color: $blue
+
         &:nth-child(2)
             .nav-icon
                 color: $green
@@ -53,6 +55,7 @@ body
                 a
                     border-bottom: 1px solid $green
                     color: $green
+
         &:nth-child(3)
             .nav-icon
                 color: $red
@@ -60,6 +63,7 @@ body
                 a
                     border-bottom: 1px solid $red
                     color: $red
+
         &:nth-child(4)
             .nav-icon
                 color: $purple
