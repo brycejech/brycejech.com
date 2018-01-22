@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113197819-1"></script>
+        <script type="text/javascript">
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-113197819-1');
+        </script>
+
+        <title>Bryce Jech Portfolio</title>
+
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Bryce Jech">
+        <meta name="description" content="Personal portfolio site of Bryce Jech, web developer. Bryce builds data driven web applications and specializes in JavaScript and NodeJS. In his free time, Bryce speaks and writes code and technical articles for non-profits in his local communities.">
+        <meta name="keywords" content="portfolio, personal portfolio, portfolio example, developer portfolio,, portfolio website, JavaScript, js, NodeJS, Node JS, Python, C#, MongoDB, PostgreSQL, REST, RESTful, REST API, API, websec, infosec, web security, CSS, CSS3, HTML, HTML5, responsive design, responsive website, web design, web developer, web development, software engineer">
+
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" href="https://getnucleon.com/release/latest/nucleon.min.css">
+        <link rel="stylesheet" type="text/css" href="style/modal.min.css">
+        <link rel="stylesheet" type="text/css" href="style/main.css">
+
+        <!-- FONT-AWESOME -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Sans+Pro:300"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!-- NAVIGATION -->
+        <nav id="nav">
+            <div id="profile">
+                <span id="name" class="text-center">Bryce Jech</span>
+                <img id="" src="https://static.brycejech.com/img/profile-circle.png" alt="">
+                <span id="title" class="text-center"><em>Web Developer</em></span>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="#about">
+                        <span class="nav-txt">About</span>
+                        <i class="fa fa-tags nav-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        <span class="nav-txt">Projects</span>
+                        <i class="fa fa-images nav-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#talks">
+                        <span class="nav-txt">Talks</span>
+                        <i class="fa fa-microphone nav-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="nav-txt">Contact</span>
+                        <i class="fa fa-address-card nav-icon"></i>
+                    </a>
+                </li>
+                <div class="u-cb"></div>
+            </ul>
+        </nav>
+
+        <div id="page-wrapper">
+
+            <!-- ABOUT SECTION -->
+            <section id="about">
+                <h1 class="section-heading">Hi, I'm Bryce</h1>
+                <img id="profile-pic" src="https://static.brycejech.com/img/profile.jpg" alt="Bryce Jech" class="pull-right">
+                <p>
+                    I am a full-stack web developer currently seeking full-time or contract work</a>
+                </p>
+                <p>
+                    I enjoy building data driven web applications and user interfaces. I specialize in JavaScript in the browser and NodeJS on the server. I gain particular enjoyment in finding creative ways of approaching business process automation and third party software integrations / plugins
+                </p>
+                <p>
+                    I build custom solutions using JavaScript / NodeJS, Python, C#, PostgreSQL, MongoDB, and any other technologies that are a good fit for any given problem. I am particularly interested in RESTful web services, web security, and application architecture and design patterns
+                </p>
+                <p>
+                    The aspect of web development that I enjoy most is identifying business processes with efficiency gaps and implementing lean, fully custom software solutions that fill those gaps
+                </p>
+
+
+                <hr>
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section id="projects">
+
+                <h1 class="section-heading">Projects</h1>
+
+                <div class="row">
+                    <!-- Left Project Column -->
+                    <div class="col-md-6">
+
+                        <!-- QR Buddy -->
+                        <div class="project" data-toggle="modal" data-target="#qrbuddy-modal">
+                            <h3 class="project-heading">QR Buddy</h3>
+                            <p class="text-center">
+                                API Based QR Code Generator
+                            </p>
+                            <img class="project-img" src="img/qr-buddy.png" alt="QR Buddy Screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- QR Buddy Modal -->
+                        <div id="qrbuddy-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">QR Buddy</h1>
+                                        <p>
+                                            QR Buddy is an API based QR code generator. It supports QR codes for website links, contact cards (vCards), email, SMS, phone, GPS coordinates, WiFi credentials, and plaintext. Users can create QR codes that can be downloaded and printed for scanning with smartphones. QR Buddy stores a user's most recently created codes in the browser for easy reference
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">JavaScript/NodeJS</span> <span class="pill">Express</span> <span class="pill">AJAX</span> <span class="pill">Application Architecture</span>
+                                            <br>
+                                            <span class="pill">HTML5</span> <span class="pill">CSS3</span> <span class="pill">Responsive Design</span> <span class="pill">UI/UX</span>
+                                            <br>
+                                             <span class="pill">Linux (Ubuntu)</span> <span class="pill">Nginx</span> <span class="pill">Let's Encrypt</span> <span class="pill">Git</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/qr-buddy" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://qrbuddy.com" rel="external" target="_blank">View Website</a>
+                                    </div>
+                                    <img src="img/qr-buddy.png" alt="QR Buddy Screenshot" class="project-img">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nucleon -->
+                        <div class="project" data-toggle="modal" data-target="#nucleon-modal">
+                            <h3 class="project-heading">Nucleon</h3>
+                            <p class="text-center">
+                                Dependency-Free CSS Micro-Framework
+                            </p>
+                            <img class="project-img" src="img/nucleon.png" alt="Nucleon Screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Nucleon Modal -->
+                        <div id="nucleon-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">Nucleon</h1>
+                                        <p>
+                                            Nucleon is a CSS micro-framework designed to facilitate rapid development while keeping a project as lean as possible. It features a responsive grid, styled UI elements such as cards and alerts, forms, buttons, a host of utility classes and pre-defined colors.
+                                        </p>
+                                        <p>
+                                            This site was built using Nucleon as a start-off point.
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">SASS</span> <span class="pill">CSS3</span> <span class="pill">Flexbox</span> <span class="pill">Responsive Design</span> <span class="pill">Git</span> <span class="pill">FOSS</span>
+                                            <br>
+                                            <span class="pill">Nginx</span> <span class="pill">Linux (Ubuntu)</span> <span class="pill">Let's Encrypt</span> <span class="pill">Google Analytics</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/nucleon" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://getnucleon.com" rel="external" target="_blank">View Website</a>
+                                    </div>
+                                    <img src="img/nucleon.png" alt="Nucleon Image" class="project-img">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Signup Genius Client -->
+                        <div class="project" data-toggle="modal" data-target="#signup-genius-modal">
+                            <h3 class="project-heading">Signup Genius API Client</h3>
+                            <p class="text-center">
+                                NodeJS API Wapper for the Signup Genius API
+                            </p>
+                            <img class="project-img" src="img/signup-genius.png" alt="Signup Genius Logo">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Signup Genius Modal -->
+                        <div id="signup-genius-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">Signup Genius API Client</h1>
+                                        <p>
+                                            NodeJS client for interacting with Signup Genius API
+                                        </p>
+                                        <p>
+                                            Supports almost all Signup Genius API endpoints. Simple interface that makes interacting with the API much easier. Allows users to fetch profile data, information about active/inactive signups, slots filled and slots available, and more.
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">JavaScript/NodeJS</span> <span class="pill">NPM</span> <span class="pill">Git</span> <span class="pill">OOP</span> <span class="pill">FOSS</span> <span class="pill">Documentation</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/signup-genius-client" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://npmjs.com/package/signup-genius-client" rel="external" target="_blank">NPM Webpage</a>
+                                    </div>
+                                    <img src="img/signup-genius.png" alt="Signup Genius Image" class="project-img">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Object Doctor -->
+                        <div class="project" data-toggle="modal" data-target="#object-doctor-modal">
+                            <h3 class="project-heading">Object Doctor</h3>
+                            <p class="text-center">
+                                Safe Object Manipulation in JavaScript
+                            </p>
+                            <img class="project-img" src="img/object-doctor.png" alt="Object Doctor Screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div id="object-doctor-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">Object Doctor</h1>
+                                        <p>
+                                            Safe, Nested Property Access and Object Manipulation in JS.
+                                        </p>
+                                        <p>
+                                            Object Doctor allows users to safely access and create nested properties and values without the need to write nested "hasOwnProperty" blocks.
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">JavaScript</span> <span class="pill">NPM</span> <span class="pill">Git</span> <span class="pill">OOP</span> <span class="pill">FOSS</span> <span class="pill">Documentation</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/object-doctor" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://npmjs.com/package/object-doctor" rel="external" target="_blank">NPM Webpage</a>
+                                    </div>
+                                    <img src="img/object-doctor.png" alt="Object Doctor Image" class="project-img">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Simple Modal -->
+                        <div class="project" data-toggle="modal" data-target="#simple-modal-modal">
+                            <h3 class="project-heading">Simple Modal</h3>
+                            <p class="text-center">
+                                Dead Simple, Dependency-Free JavaScript Modal
+                            </p>
+                            <img class="project-img" src="img/simple-modal.png" alt="Simple Modal Screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div id="simple-modal-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">Simple Modal</h1>
+                                        <p>
+                                            A tiny, easy to use, dependency-free JavaScript modal library. This library was built in order to provide a modal interface for sites that may not want to pull in a large framework such as Bootstrap. Simple modal uses data attributes and event delegation to target and trigger modal animations.
+                                        </p>
+                                        <p>
+                                            The modals on this site use Simple Modal
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">JavaScript</span> <span class="pill">CSS3</span> <span class="pill">Animation</span> <span class="pill">Git</span> <span class="pill">FOSS</span> <span class="pill">Documentation</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 col-offset-3 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/simple-modal" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <img src="img/simple-modal.png" alt="Simple Modal Image" class="project-img">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- FreeCodeCampOKC -->
+                        <div class="project" data-toggle="modal" data-target="#fccokc-modal">
+                            <h3 class="project-heading">fccokc.com</h3>
+                            <p class="text-center">
+                                Website for FreeCodeCampOKC
+                            </p>
+                            <img class="project-img" src="img/fccokc.png" alt="FCCOKC screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div id="fccokc-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-close">&times;</div>
+                                    <h1 class="section-heading">freeCodeCamp OKC Website</h1>
+                                    <p>
+                                        freeCodeCamp OKC is a local meetup in the Oklahoma City Area for devleopers to network with other developers who are using freecodecamp.com to learn how to code
+                                    </p>
+                                    <p>
+                                        For this site, I have fixed several bugs, made style updates, and written several beginner friendly articles to help new programmers get involved in contributing to open source software
+                                    </p>
+                                    <p>
+                                        To date, I have made over <a href="https://github.com/FreeCodeCampOKC/fccokc_web/commits?author=brycejech" rel="external" target="_blank">50 commits</a> and <a href="https://github.com/FreeCodeCampOKC/fccokc_web/pulls?q=is%3Apr+author%3Abrycejech" rel="external" target="_blank">6 pull requests</a> to this project
+                                    </p>
+                                    <p>
+                                        <strong class="text-ul">Skills Used</strong>
+                                        <br>
+                                        <span class="pill">JavaScript</span> <span class="pill">CSS3</span> <span class="pill">Technical Writing</span> <span class="pill">Public Speaking</span> <span class="pill">Collaboration</span>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-6 text-center">
+                                            <a href="https://github.com/brycejech/fccokc_web" rel="external" target="_blank" class="btn project-link">View Project on GitHub</a>
+                                        </div>
+                                        <div class="col-6 text-center">
+                                            <a href="http://fccokc.com" rel="external" target="_blank" class="btn project-link">View Site</a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <img src="img/fccokc.png" alt="fccokc screenshot" class="project-img">
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- End Left Project Column -->
+                    </div>
+
+                    <!-- Right Project Column -->
+                    <div class="col-md-6">
+
+                        <!-- Minesweeper -->
+                        <div class="project" data-toggle="modal" data-target="#minesweeper-modal">
+                            <h3 class="project-heading">Minesweeper</h3>
+                            <p class="text-center">
+                                Minesweeper Implementation in Pure JavaScript
+                            </p>
+                            <img class="project-img" src="img/minesweeper.png" alt="Minesweeper Screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Minesweeper Modal -->
+                        <div id="minesweeper-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">Minesweeper</h1>
+                                        <p>
+                                            Classic Minesweeper game written in pure JavaScript. Features a dependency free, object-oriented implementation. This version of Minesweeper has an elegant, high contrast interface and a unique "Hint" feature not found in other implementations. The game can also be played using a JavaScript interface provided on the page.
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">JavaScript</span> <span class="pill">SASS/CSS3</span> <span class="pill">UI/UX</span> <span class="pill">HTML5 Audio</span> <span class="pill">OOP</span> <span class="pill">Game Design</span> <span class="pill">Git</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/minesweeper" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://minesweeper.brycejech.com" rel="external" target="_blank">Play Minesweeper</a>
+                                    </div>
+                                    <img src="img/minesweeper.png" alt="Minesweeper Image" class="project-img">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Sml.Af -->
+                        <div class="project" data-toggle="modal" data-target="#smlaf-modal">
+                            <h3 class="project-heading">Sml.Af</h3>
+                            <p class="text-center">
+                                Safety-Oriented URL Shortener Built on NodeJS and PostgreSQL
+                            </p>
+                            <img class="project-img" src="img/smlaf.png" alt="Sml.Af Screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Sml.Af Modal -->
+                        <div id="smlaf-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">Sml.Af <small><em>(in progress)</em></small></h1>
+                                        <p>
+                                            Safety-Oriented URL Shortener built on NodeJS and PostgreSQL. Sml.Af validates that submitted URLs pass Google Safe Browsing checks, the same service used by major browser vendors such as Chrome and Firefox. Submitted URLs cannot contain HTTP redirects, common querystring redirects, or have executable JavaScript in the URL.
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">JavaScript/NodeJS</span> <span class="pill">PostgreSQL</span> <span class="pill">Statistics/Analytics</span> <span class="pill">CSS3</span> <span class="pill">UI/UX</span> <span class="pill">Google Safe Browsing API</span> <span class="pill">API Design</span> <span class="pill">AJAX</span> <span class="pill">Application Architecture</span> <span class="pill">Linux (Ubuntu)</span> <span class="pill">Nginx</span> <span class="pill">Let's Encrypt</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/sml.af" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn project-link" href="https://sml.af" rel="external" target="_blank">View Website</a>
+                                    </div>
+                                    <img src="img/smlaf.png" alt="Nucleon Image" class="project-img">
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- AJAX -->
+                        <div class="project" data-toggle="modal" data-target="#ajax-modal">
+                            <h3 class="project-heading">AJAX</h3>
+                            <p class="text-center">
+                                XHR Wrapper Library
+                            </p>
+                            <img class="project-img" src="img/ajax.png" alt="AJAX Screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- AJAX Modal -->
+                        <div id="ajax-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content row">
+                                    <div class="modal-close">&times;</div>
+                                    <div class="col-12">
+                                        <h1 class="section-heading">AJAX <small><em>(in progress)</em></small></h1>
+                                        <p>
+                                            Wrapper library to make using the XMLHTTPRequest API more convenient. Modern browsers support the Fetch API, but some developers still need to support older browsers such as IE9/10. This library provides an easy to use interface that works on older versions of Internet Explorer. It supports many of the same features as jQuery's <span class="pill">$.ajax()</span> method. The primary difference being that it does not support the Promise interface.
+                                        </p>
+                                        <p>
+                                            <strong class="text-ul">Skills Used</strong>
+                                            <br>
+                                            <span class="pill">JavaScript</span> <span class="pill">AJAX</span> <span class="pill">GIT</span> <span class="pill">FOSS</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 col-offset-3 text-center">
+                                        <a class="btn project-link" href="https://github.com/brycejech/ajax" rel="external" target="_blank">View project on GitHub</a>
+                                    </div>
+                                    <img src="img/ajax.png" alt="AJAX Image" class="project-img">
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- remembertheten.com -->
+                        <div class="project" data-toggle="modal" data-target="#remembertheten-modal">
+                            <h3 class="project-heading">Remember the Ten</h3>
+                            <p class="text-center">
+                                Website for "Remember the Ten" Fundraising Run
+                            </p>
+                            <img class="project-img" src="img/remembertheten.jpg" alt="remembertheten screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div id="remembertheten-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-close">&times;</div>
+                                    <h1 class="section-heading">Remember the Ten Website</h1>
+                                    <p>
+                                        Remember the Ten is an annual remembrance run in memory of the 10 OSU family members that perished in a plane crash in 2001. The 2018 run will be the 12th annual event.
+                                    </p>
+                                    <p>
+                                        I volunteered to take over as webmaster for this site in 2017 and have made updates related to the 2018 race event. We plan to start looking at a re-design of the site with improved mobile responsiveness and more interactive features after the conclusion of the 2018 event.
+                                    </p>
+                                    <p>
+                                        <strong class="text-ul">Skills Used</strong>
+                                        <br>
+                                        <span class="pill">Joomla</span> <span class="pill">CSS3</span> <span class="pill">Collaboration</span> <span class="pill">Infection Removal</span>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-4"></div>
+                                        <div class="col-4 text-center">
+                                            <a href="https://remembertheten.com" rel="external" target="_blank" class="btn project-link">View Site</a>
+                                        </div>
+                                        <div class="col-4"></div>
+                                    </div>
+                                    <img src="img/remembertheten.jpg" class="project-img" alt="remembertheten screenshot">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Run / Walk for the Thin Blue Line -->
+                        <div class="project" data-toggle="modal" data-target="#thinblueline-modal">
+                            <h3 class="project-heading">Run / Walk for the Thin Blue Line</h3>
+                            <p class="text-center">
+                                Website for Annual "Run/Walk for the Thin Blue Line" Fundraising Run
+                            </p>
+                            <img class="project-img" src="img/thinblueline.jpg" alt="thinblueline screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div id="thinblueline-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-close">&times;</div>
+                                    <h1 class="section-heading">Run / Walk for the Thin Blue Line Website</h1>
+                                    <p>
+                                        The Run/Walk for the Thin Blue Line is an annual charity run sponsored by OKCOPS. The 2018 run will be the 16th annual event. I volunteered my time to create this website and set up a giving form for the organization through Qgiv. I built this micro-site in the Summer of 2017 and continue to make updates.
+                                    </p>
+                                    <p>
+                                        The site features images from runs past, responsive design, a race results search feature, and details about the organization and next year's race. OKCOPS is a chapter of <a href="https://nationalcops.org" rel="external" target="_blank">National COPS</a> (Concerns of Police Survivors), a registered 501c3 non-profit organization. COPS provides support to family members of police officers who have been killed in the line of duty
+                                    </p>
+                                    <p>
+                                        <strong class="text-ul">Skills Used</strong>
+                                        <br>
+                                        <span class="pill">JavaScript</span> <span class="pill">AJAX</span> <span class="pill">CSS3</span> <span class="pill">Responsive Design</span> <span class="pill">Collaboration</span> <span class="pill">Qgiv</span>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-6 text-center">
+                                            <a href="https://github.com/brycejech/thinblueline.run" rel="external" target="_blank" class="btn project-link">View Project on GitHub</a>
+                                        </div>
+                                        <div class="col-6 text-center">
+                                            <a href="https://thinblueline.run" rel="external" target="_blank" class="btn project-link">View Site</a>
+                                        </div>
+                                    </div>
+                                    <img src="img/thinblueline.jpg" alt="thinblueline screenshot">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Random Quote Machine -->
+                        <div class="project" data-toggle="modal" data-target="#quote-generator-modal">
+                            <h3 class="project-heading">Random Quote Machine</h3>
+                            <p class="text-center">
+                                Random Quote Generator with Color Gradients
+                            </p>
+                            <img class="project-img" src="img/quotes.png" alt="quote machine screenshot">
+                            <button class="btn project-btn">View Project</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div id="quote-generator-modal" class="modal modal-xl">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-close">&times;</div>
+                                    <h1 class="section-heading">Random Quote Generator</h1>
+                                    <p>
+                                        This was a project completed for FreeCodeCamp.com. This random quote generator uses an API to fetch random quotes from the internet and display them to the user. It has a clean UI with smooth transitions and allows users to tweet quotes they want to share.
+                                    </p>
+                                    <p>
+                                        <strong class="text-ul">Skills Used</strong>
+                                        <br>
+                                        <span class="pill">JavaScript</span> <span class="pill">AJAX</span> <span class="pill">CSS3</span> <span class="pill">Responsive Design</span> <span class="pill">UX Design</span>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-2"></div>
+                                        <div class="col-8 text-center">
+                                            <a href="https://codepen.io/brycejech/full/YYmXQZ/" rel="external" target="_blank" class="btn project-link">View Project on CodePen</a>
+                                        </div>
+                                        <div class="col-2"></div>
+                                    </div>
+                                    <img class="project-img" src="img/quotes.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- End Right Project Column -->
+                    </div>
+                </div>
+
+                <hr>
+            </section>
+
+
+            <!-- TALKS SECTION -->
+            <section id="talks">
+
+                <h1 class="section-heading">Talks</h1>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="talk">
+                            <h3 class="project-heading text-center">Intro to Git</h3>
+                            <iframe
+                                id="git-talk"
+                                src="https://player.twitch.tv/?video=v274088850&autoplay=false"
+                                frameborder="0"
+                                scrolling="no"
+                                allowfullscreen="true">
+                            </iframe>
+                            <a href="https://github.com/brycejech/talks/blob/master/Intro-to-Git/README.md" rel="external" target="_blank" class="btn talk-btn">Source Files</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="talk">
+                            <h3 class="project-heading text-center">Intro to HTTP APIs</h3>
+                            <iframe
+                                id="api-talk"
+                                src="https://player.twitch.tv/?autoplay=false&video=v220751531"
+                                frameborder="0"
+                                scrolling="no"
+                                allowfullscreen="true">
+                            </iframe>
+                            <a href="https://github.com/brycejech/talks/blob/master/Intro-to-APIs/README.md" rel="external" target="_blank" class="btn talk-btn">Source Files</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="talk">
+                            <h3 class="project-heading text-center">Content Security Policy</h3>
+                            <iframe
+                                id="csp-talk"
+                                src="https://player.twitch.tv/?video=v181062298&autoplay=false"
+                                frameborder="0"
+                                scrolling="no"
+                                allowfullscreen="true">
+                            </iframe>
+                            <a href="https://github.com/brycejech/talks/blob/master/Content-Security-Policy/README.md" rel="external" target="_blank" class="btn talk-btn">Source Files</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr>
+            </section>
+
+
+            <!-- CONTACT SECTION -->
+            <section id="contact">
+                <h1 class="section-heading">Contact Me</h1>
+                <div id="contact-form-container">
+                    <div id="submission-error">
+                        <h1 class="section-heading">Error</h1>
+                        <p class="text-center">Oops! Something went wrong. Please try again later.</p>
+                    </div>
+                    <form id="contact-form" method="POST" action="">
+                        <div class="row">
+                            <input type="text" name="_gotcha" style="display:none;">
+                            <div class="col-lg-12 col-xl-6">
+                                <label for="your-name">Your Name</label>
+                                <input id="your-name" type="text" name="name" placeholder="Linus Torvalds" required>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <label for="your-email">Your Email</label>
+                                <input id="your-email" type="email" name="email" placeholder="ltorvalds@lkml.org" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="your-subject">Subject</label>
+                                <input id="your-subject" type="text" name="_subject" placeholder="Let's Connect">
+                            </div>
+                            <div class="col-12">
+                                <label for="your-message">Message</label>
+                                <textarea name="message" id="your-message" rows="10" placeholder="Type your message here" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="thank-you">
+                        <h1 class="section-heading">Thank You!</h1>
+                        <p class="text-center">Thank you for your message! I will follow up with you soon.</p>
+                        <hr>
+                        <div id="submission-wrapper">
+                            <p class="text-center">Here is a copy of your submission</p>
+                            <div id="submission-data" class="row">
+                                <div class="col-2">Name:</div>
+                                <div class="col-10">Bryce Jech</div>
+                                <div class="col-2">Email:</div>
+                                <div class="col-10">bryce.jech@gmail.com</div>
+                                <div class="col-2">Subject:</div>
+                                <div class="col-10">Here is my subject</div>
+                                <div class="col-2">Message:</div>
+                                <div class="col-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit pariatur dolor magni amet quasi itaque laudantium perferendis repellendus doloribus maiores, tempore ex, alias a repudiandae temporibus at. Tempora, minima, repellendus.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    'use strict';
+
+                    (function(){
+
+                        var form = document.getElementById('contact-form');
+
+                        form.addEventListener('submit', formSubmit);
+
+                        function formSubmit(event){
+                            event.preventDefault();
+
+                            var name    = document.getElementById('your-name').value,
+                                email   = document.getElementById('your-email').value,
+                                subject = document.getElementById('your-subject').value,
+                                message = document.getElementById('your-message').value;
+
+                            var url  = 'https://formspree.io/bryce@brycejech.com';
+
+                            var data = 'name='      + encodeURIComponent(name) +
+                                       '&email='    + encodeURIComponent(email) +
+                                       '&_subject=' + encodeURIComponent(subject) +
+                                       '&subject='  + encodeURIComponent(subject) +
+                                       '&message='  + encodeURIComponent(message);
+
+                            var opts = {
+                                url: url,
+                                method: 'POST',
+                                dataType: 'json',
+                                headers: {
+                                    accept: 'application/json'
+                                },
+                                data: data,
+                                success: function(data){
+                                    if(!data.success){
+                                        // Error
+                                        _handleError();
+                                        console.log('Form Submission Failed!');
+                                    }
+                                    else{
+                                        // Success
+                                        _handleSuccess({
+                                            name: name,
+                                            email: email,
+                                            subject: subject,
+                                            message: message
+                                        });
+                                        form.reset();
+                                        console.log('Form Submitted Successfully!');
+                                    }
+                                },
+                                err: function(xhr, status, err){
+                                    _handleError();
+                                    console.error('---------------------');
+                                    console.error(xhr);
+                                    console.error(status);
+                                    console.error(err);
+                                }
+
+                            }
+                            ajax(opts);
+                        }
+
+                        function _handleSuccess(data){
+                            document.getElementById('contact-form').style.display = 'none';
+
+                            var html = '';
+
+                            html += '<div class="col-2">Name</div>';
+                            html += '<div class="col-10">' + data.name + '</div>';
+                            html += '<div class="col-2">Email</div>';
+                            html += '<div class="col-10">' + data.email + '</div>';
+                            html += '<div class="col-2">Subject</div>';
+                            html += '<div class="col-10">' + data.subject + '</div>';
+                            html += '<div class="col-2">Message</div>';
+                            html += '<div class="col-10">' + data.message + '</div>';
+
+                            document.getElementById('submission-data').innerHTML = html;
+
+                            document.getElementById('thank-you').style.display = 'block';
+                        }
+
+                        function _handleError(){
+                            document.getElementById('submission-error').style.display = 'block';
+                        }
+
+                    })();
+                </script>
+            </section>
+            <footer>
+                <div class="contact-buttons row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-2 text-center">
+                        <a href="mailto:bryce@brycejech.com">
+                            <i id="email" class="far fa-envelope contact-button"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-2 text-center">
+                        <a href="https://github.com/brycejech" target="_blank" rel="noopener external">
+                            <i id="github" class="fab fa-github-square contact-button"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-2 text-center">
+                        <a href="https://linkedin.com/in/brycejech" target="_blank" rel="noopener external">
+                            <i id="linkedin" class="fab fa-linkedin contact-button"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-2 text-center">
+                        <a href="https://twitter.com/brycejech" target="_blank" rel="noopener external">
+                            <i id="twitter" class="fab fa-twitter-square contact-button"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-2 text-center">
+                        <a href="https://codepen.io/brycejech" target="_blank" rel="noopener external">
+                            <i id="codepen" class="fab fa-codepen contact-button"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-1"></div>
+                </div>
+                <div class="text-center" style="color: white; margin-top:20px;">
+                    &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Bryce Jech, All Rights Reserved
+                </div>
+            </footer>
+        </div>
+
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/modal.min.js"></script>
+        <script type="text/javascript" src="https://brycejech.com/js/ajax.js"></script>
+    </body>
+</html>

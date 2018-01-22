@@ -1,0 +1,329 @@
+@import 'variables'
+@import 'nav'
+
+body
+    font-size: 1.8rem
+    font-weight: 300
+    color: $white
+    background-color: darken($gray, 5%)
+
+img
+    max-width: 100%
+
+hr
+    display: block
+    border-color: black
+    max-width: 60%
+    position: relative
+    top: 95px
+
+.pill,
+.text-hl
+    white-space: nowrap
+    margin-right: .5rem
+    margin-bottom: .5rem
+    line-height: 1
+    display: inline-block
+
+#page-wrapper
+    display: block
+
+
+@media screen and (min-width: 768px)
+    section
+        padding: 25px 100px
+
+section
+    padding: 25px 10px
+
+    @media screen and (min-width: 568px)
+        padding: 35px 25px
+    @media screen and (min-width: 768px)
+        padding: 35px
+
+    p
+        margin-top: 30px
+        margin-bottom: 30px
+        line-height: 1.55
+
+    a
+        color: $white
+        text-decoration: none
+        font-weight: bold
+
+        &:hover
+            text-decoration: underline
+
+.section-heading
+    text-align: center
+    font-size: 5.2rem
+    font-weight: 300
+    margin-bottom: 28px
+
+
+
+.sub-heading
+    margin-bottom: 5px
+
+
+/* === BUTTONS === */
+
+#talks .btn,
+#projects .btn
+    display: block
+    width: 225px
+    padding: 8px 12px
+    height: auto
+    margin: auto
+    color: $white
+
+    transition: all .2s ease
+
+#talks
+    .talk-btn
+        padding: 1rem
+        border: 1px solid darken($red, 15%)
+        background-color: $red
+
+        &:hover
+            text-decoration: none
+            background-color: darken($red, 15%)
+
+#projects
+    .project-link, .project-btn
+        border: 1px solid darken($dark-green, 10%)
+        text-decoration: none
+        &:hover
+            background-color: darken($dark-green, 10%)
+
+    .project-link
+        width: auto
+        color: darken($dark-green, 10%)
+        margin-bottom: 2rem
+        &:hover
+            color: $white
+
+    .project-btn
+        background-color: $dark-green
+        border-color: $dark-green
+        &:hover
+            background-color: darken($dark-green, 10%)
+            border-color: darken($dark-green, 10%)
+
+
+
+/* === ABOUT SECTION STYLES === */
+
+#about
+    padding: 50px 30px
+    padding-top: 25px
+    @media screen and (min-width: 768px)
+        padding: 50px
+    @media screen and (min-width: 992px)
+        padding: 50px 75px
+    @media screen and (min-width: 1200px)
+        padding: 50px 100px
+    @media screen and (min-width: 1350px)
+        padding: 50px 125px
+
+#profile-pic
+    max-width: 250px
+    margin-left: 25px
+    border-radius: 3px
+
+@media screen and (max-width: 540px)
+    #profile-pic
+        display: block
+        float: none
+        max-width: 75%
+        margin: 15px auto
+
+
+/* === PROJECT SECTION STYLES === */
+
+#projects
+    .modal
+        color: $gray
+
+.project
+    cursor: pointer
+    padding: 15px 25px
+    background-color: darken($gray, 13%)
+    border-radius: 3px
+    margin-bottom: 2.8rem
+
+    p
+        margin: 5px auto 10px
+
+    .project-heading
+        margin-bottom: 8px
+
+.project-heading
+    font-size: 2.2rem
+    text-align: center
+    text-decoration: underline
+    @media screen and (min-width: 568px)
+        font-size: 2.5rem
+    @media screen and (min-width: 768px)
+        font-size: 2.8rem
+    @media screen and (min-width: 992px)
+        font-size: 3.2rem
+
+.project-img
+    display: block
+    margin: 15px auto
+    max-width: 100%
+    border-radius: 3px
+
+/* === TALK SECTION STYLES === */
+
+.talk
+    background-color: darken($gray, 13%)
+    border-radius: 3px
+    padding: 15px 25px
+
+iframe
+    width: 100%
+    max-width: 100%
+    min-height: 450px
+    display: block
+    margin: 0 auto 12px
+
+
+
+
+/* === CONTACT SECTION STYLES === */
+
+#contact-form-container
+    display: block
+    margin: 50px auto
+    padding: 25px 15px
+    max-width: 750px
+
+    color: $gray
+    background-color: $white
+    border-radius: 3px
+
+
+#contact-form
+
+    label
+        font-family: 'Source Sans Pro', sans-serif
+        font-weight: 300
+        font-size: 2.5rem
+
+    input,
+    textarea,
+    .btn
+        border-radius: 2px
+    input:focus,
+    textarea:focus
+        border-color: $dark-purple
+        box-shadow: 0 0 5px 0 rgba(128, 0, 128, .35), 0 0 2px 0 rgba(128, 0, 128, .35) inset
+
+    .btn
+        display: block
+        margin: 0 auto
+        padding: 8px 12px
+        width: 50%
+
+        font-family: 'Source Sans Pro', sans-serif
+        font-weight: 500
+        font-size: 2.6rem
+        height: auto
+        color: $white
+        background-color: $dark-purple
+
+        &:hover
+            background-color: darken($dark-purple, 10%)
+
+#submission-error
+    display: none
+    margin-bottom: 50px
+    p
+        font-size: 2rem
+
+#thank-you
+    display: none
+
+    p
+        font-size: 2rem
+
+    #submission-wrapper
+        width: 100%
+        margin: 0 auto
+
+        @media screen and (min-width: 568px)
+            width: 95%
+        @media screen and (min-width: 768px)
+            width: 95%
+        @media screen and (min-width: 992px)
+            width: 85%
+
+
+/* === SECTION COLORING === /*
+
+#about
+    border-left: 2px solid darken($blue, 20%)
+#projects
+    border-left: 2px solid $dark-green
+#talks
+    border-left: 2px solid $red
+#contact
+    border-left: 2px solid $dark-purple
+
+footer
+    background: darken($gray, 13%)
+    border-left: 2px solid white
+
+
+/* === FOOTER STYLING === */
+
+footer
+    padding: 50px 0 20px
+
+.contact-buttons .contact-button
+    font-size: 3.8rem
+    color: $white
+
+    transition: all .3s ease-in-out
+
+    @media screen and (min-width: 768px)
+        font-size: 5rem
+
+    &:hover
+        transform: scale(1.35)
+
+#email:hover
+    color: $red
+#github:hover
+    color: #80278f
+#linkedin:hover
+    color: #0077B5
+#twitter:hover
+    color: #1DA1F2
+#codepen:hover
+    color: #ffdd40
+#facebook:hover
+    color: #4867AA
+
+
+.modal-dialog
+    margin-bottom: 100px
+.modal a
+    color: $gray
+.modal p
+    padding: 0
+
+    @media screen and (min-width: 768px)
+        padding: 0 25px
+    @media screen and (min-width: 992px)
+        padding: 0 35px
+.modal-close
+    font-size: 5rem
+    line-height: .8
+    margin-bottom: -25px
+    padding-right: 5px
+
+    @media screen and (min-width: 768px)
+        padding-right: 15px
