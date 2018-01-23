@@ -10,6 +10,7 @@
         <!-- STYLES -->
         <link rel="stylesheet" type="text/css" href="https://basefront.brycejech.com/style/basefront.min.css">
         <link rel="stylesheet" type="text/css" href="style/main.css">
+        <link rel="stylesheet" type="text/css" href="style/modals.css">
 
         <!-- FONT-AWESOME -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
@@ -29,8 +30,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#portfolio">
-                        Portfolio
+                    <a href="#projects">
+                        Projects
                         <i class="fa fa-images nav-icon"></i>
                     </a>
                 </li>
@@ -49,18 +50,59 @@
             </ul>
         </nav>
         <div id="page-wrapper">
+            <!-- ABOUT SECTION -->
             <section id="about" class="row">
-                <h1>About</h1>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa itaque, quae corrupti quod animi nihil, maxime alias suscipit odit dolor autem amet incidunt enim perspiciatis facilis. Ad, delectus laudantium? Officiis.</div>
+                <h1 id="section-heading">About Me</h1>
+                <img src="https://static.brycejech.com/img/profile.jpg" style="max-width:250px;" alt="Bryce Jech" class="u-fl-r">
+                <p>
+                    I am a full-stack web developer working at the <a href="https://osugiving.com/" target="_blank" rel="external">Oklahoma State University Foundation</a>
+                </p>
+                <p>
+                    My specializations include business process automation, 3rd party software integrations and plugins, and custom web application development. I build custom solutions with JavaScript/NodeJS, Python, C#, PostgreSQL, MongoDB, and any other technologies that fit a particular problem
+                </p>
+                <p>
+                    The aspect of web development that I enjoy most is finding business processes that have efficiency problems and implementing custom software solutions from scratch that solve those problems
+                </p>
             </section>
-            <section id="portfolio" class="row">
-                <h1>Portfolio</h1>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia consectetur, fugit adipisci culpa illo itaque ipsa vitae necessitatibus libero cum esse eius dolores eligendi harum beatae ea enim vel odio.</div>
+
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="row">
+                <h1 class="section-heading">Projects</h1>
+                <div class="col-4">
+                    <div class="project" data-toggle="modal" data-target="#basefront-modal">
+                        <h3 class="u-cntr u-ul">basefront</h3>
+                        <img src="img/basefront.png" alt="basefront screenshot">
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+
             </section>
+
+            <!-- TALKS SECTION -->
             <section id="talks" class="row">
-                <h1>Talks</h1>
-                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia saepe doloribus harum, temporibus doloremque maiores cumque architecto enim libero corporis eveniet, sint tempore vitae culpa ipsum cum tempora in laudantium!</div>
+                <h1 class="section-heading">Talks</h1>
+                <div id="api-talk-container" class="col-md-12 col-lg-6">
+                    <iframe
+                        id="api-talk"
+                        src="http://player.twitch.tv/?video=v218606508&time=4m55s&autoplay=false"
+                        frameborder="0"
+                        scrolling="no"
+                        allowfullscreen="true">
+                    </iframe>
+                </div>
+                <div id="csp-talk-container" class="col-md-12 col-lg-6">
+                    <iframe
+                        id="csp-talk"
+                        src="http://player.twitch.tv/?video=v181062298&autoplay=false"
+                        frameborder="0"
+                        scrolling="no"
+                        allowfullscreen="true">
+                    </iframe>
+                </div>
             </section>
+
+            <!-- CONTACT SECTION -->
             <section id="contact" class="row">
                 <div class="contact-buttons">
                     <div class="col-2 u-cntr">
@@ -97,6 +139,34 @@
             </section>
         </div>
 
+        <!-- MODALS -->
+        <div id="basefront-modal" class="modal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content row">
+                    <div class="col-12">
+                        <h1 class="u-cntr u-ul">basefront</h1>
+                        <p>
+                            basefront is a css micro-framework designed to facilitate rapid development while keeping a project as lean as possible.
+                        </p>
+                        <p>
+                            basefront is small like Skeleton, and provides the same grid syntax as Bootstrap. This way, projects can stay lean and provide for a less painful replacement of basefront with Bootstrap if the need arises. The primary difference between basefront and Skeleton is that basefront does not use margin-based guttering.
+                        </p>
+                        <p>
+                            This site was built using basefront as a jumping off point.
+                        </p>
+                    </div>
+                    <div class="col-6 u-cntr">
+                        <a class="project-link" href="https://github.com/brycejech/basefront" rel="external" target="_blank">View project on GitHub</a>
+                    </div>
+                    <div class="col-6 u-cntr">
+                        <a class="project-link" href="https://basefront.brycejech.com" rel="external" target="_blank">View project website</a>
+                    </div>
+                    <img src="img/basefront.png" alt="basefront image">
+                </div>
+            </div>
+        </div>
+
         <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/modal.js"></script>
     </body>
 </html>
