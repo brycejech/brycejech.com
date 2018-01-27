@@ -1,105 +1,35 @@
-$gray: #3A3A3A
-$white: #FDFDFD
-
-$blue: #2fabfb
-$green: #3bc937
-$dark-green: darken($green, 15%)
-$red: #d64c3f
-$purple: #f54ef3
-
-
-$nav-width: 300px
+@import 'variables'
+@import 'nav'
 
 body
-    padding-left: $nav-width
     font-size: 1.8rem
 
 img
     max-width: 100%
 
-#nav
-    position: fixed
-    left: 0
-    height: 100%
-    padding-top: 25px
-    min-width: $nav-width
 
-    color: $white
-    text-align: left
-    background-color: darken($gray, 13%)
-
-    .nav-icon
-        float: right
-        font-size: 2.2rem
-
-    ul
-        list-style-type: none
-        font-size: 2rem
-        text-align: center
-        padding: 0
-        margin: 0
-
-    li
-        display: block
-        margin: 20px auto
-        padding: 0
-        width: 85%
-
-        // Nav Color Customizations
-        &:first-child
-            .nav-icon
-                color: $blue
-            &.active
-                a
-                    border-bottom: 1px solid $blue
-                    color: $blue
-
-        &:nth-child(2)
-            .nav-icon
-                color: $green
-            &.active
-                a
-                    border-bottom: 1px solid $green
-                    color: $green
-
-        &:nth-child(3)
-            .nav-icon
-                color: $red
-            &.active
-                a
-                    border-bottom: 1px solid $red
-                    color: $red
-
-        &:nth-child(4)
-            .nav-icon
-                color: $purple
-            &.active
-                a
-                    border-bottom: 1px solid $purple
-                    color: $purple
-        a
-            display: block
-            width: 100%
-            padding: 10px 50px
-            color: $white
-            text-decoration: none
-            text-align: left
-            border-bottom: 1px solid $white
-
-#profile
-    display: block
-    position: relative
-
-    img
-        display: block
-        max-width: 175px
-        margin: 25px auto
 
 #page-wrapper
-    display: inline-block
+    display: block
+
+#profile-pic
+    max-width: 250px
+    margin-left: 25px
+    border-radius: 3px
+
+@media screen and (max-width: 540px)
+    #profile-pic
+        display: block
+        float: none
+        max-width: 75%
+        margin: 15px auto
+
+@media screen and (min-width: 768px)
+    section
+        padding: 25px 100px
 
 section
-    padding: 25px 100px
+    padding: 25px
 
     p
         margin-top: 5px
@@ -162,14 +92,20 @@ iframe
 #contact
     background-color: $gray
 
+
+
 .contact-buttons .contact-button
-    font-size: 5rem
+    font-size: 3.8rem
     color: $white
 
     transition: all .3s ease-in-out
 
     &:hover
         transform: scale(1.35)
+
+@media screen and (min-width: 768px)
+    .contact-buttons .contact-button
+        font-size: 5rem
 
 #email:hover
     color: $red
@@ -183,3 +119,7 @@ iframe
     color: #ffdd40
 #facebook:hover
     color: #4867AA
+
+@media screen and (max-width: 768px)
+    .modal-xl
+        width: 90%
