@@ -1,7 +1,24 @@
+$nav-width-sm: 180px
+$nav-width-md: 210px
+$nav-width-lg: 240px
+$nav-width-xl: 270px
+
+*
+    transition: all .25s ease
 
 body
     background-color: $gray
     padding-bottom: 100px
+
+    @media screen and (min-width: 768px)
+        padding-left: $nav-width-sm
+        padding-bottom: 0
+    @media screen and (min-width: 875px)
+        padding-left: $nav-width-md
+    @media screen and (min-width: 992px)
+        padding-left: $nav-width-lg
+    @media screen and (min-width: 1200px)
+        padding-left: $nav-width-xl
 
 #nav
     position: fixed
@@ -75,16 +92,19 @@ body
 
 @media screen and (min-width: 768px)
 
-    body
-        padding-left: $nav-width
-        padding-bottom: 0
-
     #nav
         position: fixed
         left: 0
         height: 100%
         padding-top: 25px
-        width: $nav-width
+        width: $nav-width-sm
+
+        @media screen and (min-width: 875px)
+            width: $nav-width-md
+        @media screen and (min-width: 992px)
+            width: $nav-width-lg
+        @media screen and (min-width: 1200px)
+            width: $nav-width-xl
 
         .nav-txt
             display: inline-block
@@ -105,13 +125,14 @@ body
             display: block
             margin: 20px auto
             padding: 0
-            width: 85%
+            width: 100%
 
 
             a
                 display: block
-                width: 100%
-                padding: 10px 50px
+                margin: 0 auto
+                width: 85%
+                padding: 10px
                 color: $white
                 text-decoration: none
                 text-align: left
@@ -123,5 +144,12 @@ body
 
             img
                 display: block
-                max-width: 175px
+                max-width: 120px
                 margin: 25px auto
+
+
+                @media screen and (min-width: 875px)
+                    max-width: 140px
+
+                @media screen and (min-width: 992px)
+                    max-width: 160px
