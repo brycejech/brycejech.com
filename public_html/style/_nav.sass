@@ -20,6 +20,9 @@ body
     @media screen and (min-width: 1200px)
         padding-left: $nav-width-xl
 
+
+/* === HORIZONTAL NAV STYLES === */
+
 #nav
     position: fixed
     bottom: 0
@@ -30,8 +33,6 @@ body
     text-align: left
     background-color: darken($gray, 13%)
 
-    #profile
-        display: none
     .nav-icon
         font-size: 3rem
     .nav-txt
@@ -89,6 +90,7 @@ body
             padding-bottom: 25px
 
 
+/* === VERTICAL NAV STYLES === */
 
 @media screen and (min-width: 768px)
 
@@ -111,7 +113,8 @@ body
             position: relative
 
         .nav-icon
-            float: right
+            float: left
+            margin-right: 25px
             font-size: 2.2rem
 
         ul
@@ -138,18 +141,43 @@ body
                 text-align: left
                 border-bottom: 1px solid $white
 
-        #profile
+
+
+/* === PROFILE STYLES === */
+
+#profile
+    display: none
+
+@media screen and (min-width: 768px)
+    #profile
+        display: block
+        position: relative
+
+        img
             display: block
-            position: relative
+            max-width: 120px
+            margin: 10px auto
+            @media screen and (min-width: 875px)
+                max-width: 140px
+            @media screen and (min-width: 992px)
+                max-width: 160px
 
-            img
-                display: block
-                max-width: 120px
-                margin: 25px auto
+    #name, #title
+        display: block
+        margin: 5px
+    #name
+        font-size: 2.5rem
+    #title
+        font-size: 1.3rem
 
+@media screen and (min-width: 992px)
+    #name
+        font-size: 2.7rem
+    #title
+        font-size: 1.5rem
 
-                @media screen and (min-width: 875px)
-                    max-width: 140px
-
-                @media screen and (min-width: 992px)
-                    max-width: 160px
+@media screen and (min-width: 1200px)
+    #name
+        font-size: 2.9rem
+    #title
+        font-size: 1.7rem
