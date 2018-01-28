@@ -28,7 +28,9 @@
         <!-- FONT-AWESOME -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Sans+Pro:300"
+            rel="stylesheet">
     </head>
     <body>
         <!-- NAVIGATION -->
@@ -126,7 +128,146 @@
             </section>
 
             <!-- CONTACT SECTION -->
-            <section id="contact" class="row">
+            <section id="contact">
+                <h1 class="section-heading">Contact Me</h1>
+                <div id="contact-form-container">
+                    <div id="submission-error">
+                        <h1 class="section-heading">Error</h1>
+                        <p class="u-cntr">Oops! Something went wrong. Please try again later.</p>
+                    </div>
+                    <form id="contact-form" method="POST" action="">
+                        <div class="row">
+                            <input type="text" name="_gotcha" style="display:none;">
+                            <div class="col-lg-12 col-xl-6">
+                                <label for="your-name">Your Name</label>
+                                <input id="your-name" type="text" name="name" placeholder="Linus Torvalds" required>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <label for="your-email">Your Email</label>
+                                <input id="your-email" type="email" name="email" placeholder="ltorvalds@lkml.org" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="your-subject">Subject</label>
+                                <input id="your-subject" type="text" name="_subject" placeholder="Let's Connect">
+                            </div>
+                            <div class="col-12">
+                                <label for="your-message">Message</label>
+                                <textarea name="message" id="your-message" rows="10" placeholder="Type your message here" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="thank-you">
+                        <h1 class="section-heading">Thank You!</h1>
+                        <p class="u-cntr">Thank you for your message! I will follow up with you soon.</p>
+                        <hr>
+                        <div id="submission-wrapper">
+                            <p class="u-cntr">Here is a copy of your submission</p>
+                            <div id="submission-data" class="row">
+                                <div class="col-2">Name:</div>
+                                <div class="col-10">Bryce Jech</div>
+                                <div class="col-2">Email:</div>
+                                <div class="col-10">bryce.jech@gmail.com</div>
+                                <div class="col-2">Subject:</div>
+                                <div class="col-10">Here is my subject</div>
+                                <div class="col-2">Message:</div>
+                                <div class="col-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit pariatur dolor magni amet quasi itaque laudantium perferendis repellendus doloribus maiores, tempore ex, alias a repudiandae temporibus at. Tempora, minima, repellendus.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    'use strict';
+
+                    (function(){
+
+                        var form = document.getElementById('contact-form');
+
+                        form.addEventListener('submit', formSubmit);
+
+                        function formSubmit(event){
+                            event.preventDefault();
+
+                            var name    = document.getElementById('your-name').value,
+                                email   = document.getElementById('your-email').value,
+                                subject = document.getElementById('your-subject').value,
+                                message = document.getElementById('your-message').value;
+
+                            var url  = 'https://formspree.io/bryce@brycejech.com';
+
+                            var data = 'name='      + encodeURIComponent(name) +
+                                       '&email='    + encodeURIComponent(email) +
+                                       '&_subject=' + encodeURIComponent(subject) +
+                                       '&subject='  + encodeURIComponent(subject) +
+                                       '&message='  + encodeURIComponent(message);
+
+                            var opts = {
+                                url: url,
+                                method: 'POST',
+                                dataType: 'json',
+                                headers: {
+                                    accept: 'application/json'
+                                },
+                                data: data,
+                                success: function(data){
+                                    if(!data.success){
+                                        // Error
+                                        _handleError();
+                                        console.log('Form Submission Failed!');
+                                    }
+                                    else{
+                                        // Success
+                                        _handleSuccess({
+                                            name: name,
+                                            email: email,
+                                            subject: subject,
+                                            message: message
+                                        });
+                                        form.reset();
+                                        console.log('Form Submitted Successfully!');
+                                    }
+                                },
+                                err: function(xhr, status, err){
+                                    _handleError();
+                                    console.error('---------------------');
+                                    console.error(xhr);
+                                    console.error(status);
+                                    console.error(err);
+                                }
+
+                            }
+                            ajax(opts);
+                        }
+
+                        function _handleSuccess(data){
+                            document.getElementById('contact-form').style.display = 'none';
+
+                            var html = '';
+
+                            html += '<div class="col-2">Name</div>';
+                            html += '<div class="col-10">' + data.name + '</div>';
+                            html += '<div class="col-2">Email</div>';
+                            html += '<div class="col-10">' + data.email + '</div>';
+                            html += '<div class="col-2">Subject</div>';
+                            html += '<div class="col-10">' + data.subject + '</div>';
+                            html += '<div class="col-2">Message</div>';
+                            html += '<div class="col-10">' + data.message + '</div>';
+
+                            document.getElementById('submission-data').innerHTML = html;
+
+                            document.getElementById('thank-you').style.display = 'block';
+                        }
+
+                        function _handleError(){
+                            document.getElementById('submission-error').style.display = 'block';
+                        }
+
+                    })();
+                </script>
+            </section>
+            <footer>
                 <div class="row">
                     <div class="contact-buttons">
                         <div class="col-xs-2 u-cntr">
@@ -164,7 +305,7 @@
                 <div class="u-cntr" style="color: white; margin-top:20px;">
                     &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Bryce Jech, All Rights Reserved
                 </div>
-            </section>
+            </footer>
         </div>
 
         <!-- MODALS -->
@@ -196,5 +337,6 @@
 
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/modal.js"></script>
+        <script type="text/javascript" src="https://brycejech.com/js/ajax.js"></script>
     </body>
 </html>

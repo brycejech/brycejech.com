@@ -17,7 +17,12 @@ img
         padding: 25px 100px
 
 section
-    padding: 25px
+    padding: 25px 10px
+
+    @media screen and (min-width: 568px)
+        padding: 50px 25px
+    @media screen and (min-width: 768px)
+        padding: 50px
 
     p
         margin-top: 30px
@@ -35,7 +40,7 @@ section
     .section-heading
         text-align: center
         font-size: 4.5rem
-        font-weight: 500
+        font-weight: 300
         margin-bottom: 40px
 
 .project
@@ -98,23 +103,106 @@ iframe
         margin: 15px auto
 
 
+/* === CONTACT SECTION STYLES === */
+
+#contact-form-container
+    display: block
+    margin: 50px auto
+    padding: 25px 5px
+    max-width: 750px
+
+    color: $gray
+    background-color: $white
+
+    @media screen and (min-width: 568px)
+
+
+#contact-form
+
+    label
+        font-family: 'Source Sans Pro', sans-serif
+        font-weight: 300
+        font-size: 2.5rem
+
+    input,
+    textarea,
+    .btn
+        border-radius: 2px
+    input:focus,
+    textarea:focus
+        border-color: $dark-purple
+        box-shadow: 0 0 5px 0 rgba(128, 0, 128, .35), 0 0 2px 0 rgba(128, 0, 128, .35) inset
+
+    .btn
+        display: block
+        margin: 0 auto
+        padding: 15px
+        width: 100%
+
+        border: none
+        outline: none
+
+        font-family: 'Source Sans Pro', sans-serif
+        font-weight: 300
+        font-size: 2.8rem
+        letter-spacing: .3rem
+        cursor: pointer
+        color: $white
+        background: $dark-purple radial-gradient(transparent, rgba(0,0,0,.25))
+
+        &:hover
+            background-color: darken($dark-purple, 10%)
+
+        @media screen and (min-width: 768px)
+            width: 85%
+
+#submission-error
+    display: none
+    margin-bottom: 50px
+    p
+        font-size: 2rem
+
+#thank-you
+    display: none
+
+    p
+        font-size: 2rem
+
+    #submission-wrapper
+        width: 100%
+        margin: 0 auto
+
+        @media screen and (min-width: 568px)
+            width: 95%
+        @media screen and (min-width: 768px)
+            width: 95%
+        @media screen and (min-width: 992px)
+            width: 85%
+
+
 /* === SECTION COLORING === /*
 
 #about
-    // background: darken($blue, 20%) linear-gradient(135deg, rgba(0, 0, 0, .4), transparent)
     background: darken($blue, 20%) $shadow-gradient
-    color: white
+    color: $white
 #projects
     background: $dark-green $shadow-gradient
-    color: white
+    color: $white
 #talks
     background: $red $shadow-gradient
-    color: white
+    color: $white
 #contact
+    background: ($dark-purple) $shadow-gradient
+    color: $white
+
+footer
     background: $gray $shadow-gradient
 
 
-/* === FOOTER CONTACT BUTTONS === */
+/* === FOOTER STYLING === */
+
+footer
+    padding: 50px 0
 
 .contact-buttons .contact-button
     font-size: 3.8rem
