@@ -3,6 +3,7 @@
 
 body
     font-size: 1.8rem
+    font-weight: 300
 
 img
     max-width: 100%
@@ -10,17 +11,6 @@ img
 #page-wrapper
     display: block
 
-#profile-pic
-    max-width: 250px
-    margin-left: 25px
-    border-radius: 3px
-
-@media screen and (max-width: 540px)
-    #profile-pic
-        display: block
-        float: none
-        max-width: 75%
-        margin: 15px auto
 
 @media screen and (min-width: 768px)
     section
@@ -30,7 +20,9 @@ section
     padding: 25px
 
     p
-        margin-top: 5px
+        margin-top: 30px
+        margin-bottom: 30px
+        line-height: 1.55
 
     a
         color: white
@@ -44,6 +36,7 @@ section
         text-align: center
         font-size: 4.5rem
         font-weight: 500
+        margin-bottom: 40px
 
 .project
     cursor: pointer
@@ -54,10 +47,10 @@ section
 .project-link
     padding: 8px 12px
 
-    color: $dark-green
+    color: darken($dark-green, 8%)
     text-decoration: none
 
-    border: 1px solid $dark-green
+    border: 1px solid darken($dark-green, 8%)
     border-radius: 3px
 
     cursor: pointer
@@ -65,7 +58,7 @@ section
 
     &:hover
         color: $white
-        background-color: $dark-green
+        background-color: darken($dark-green, 8%)
 
 iframe
     width: 500px
@@ -77,20 +70,51 @@ iframe
 .sub-heading
     margin-bottom: 5px
 
+
+/* === ABOUT SECTION STYLES === */
+
 #about
-    // background-color: darken($blue, 20%)
-    background: darken($blue, 20%) linear-gradient(135deg, rgba(0, 0, 0, .4), transparent)
+    padding: 50px 30px
+    padding-top: 25px
+    @media screen and (min-width: 768px)
+        padding: 50px
+    @media screen and (min-width: 992px)
+        padding: 50px 75px
+    @media screen and (min-width: 1200px)
+        padding: 50px 100px
+    @media screen and (min-width: 1350px)
+        padding: 50px 125px
+
+#profile-pic
+    max-width: 250px
+    margin-left: 25px
+    border-radius: 3px
+
+@media screen and (max-width: 540px)
+    #profile-pic
+        display: block
+        float: none
+        max-width: 75%
+        margin: 15px auto
+
+
+/* === SECTION COLORING === /*
+
+#about
+    // background: darken($blue, 20%) linear-gradient(135deg, rgba(0, 0, 0, .4), transparent)
+    background: darken($blue, 20%) $shadow-gradient
     color: white
 #projects
-    background: $dark-green radial-gradient(transparent, rgba(0,0,0,.45))
+    background: $dark-green $shadow-gradient
     color: white
 #talks
-    background: $red radial-gradient(transparent, rgba(0,0,0,.45))
+    background: $red $shadow-gradient
     color: white
 #contact
-    background-color: $gray
+    background: $gray $shadow-gradient
 
 
+/* === FOOTER CONTACT BUTTONS === */
 
 .contact-buttons .contact-button
     font-size: 3.8rem
@@ -98,12 +122,11 @@ iframe
 
     transition: all .3s ease-in-out
 
+    @media screen and (min-width: 768px)
+        font-size: 5rem
+
     &:hover
         transform: scale(1.35)
-
-@media screen and (min-width: 768px)
-    .contact-buttons .contact-button
-        font-size: 5rem
 
 #email:hover
     color: $red

@@ -3,12 +3,14 @@ $nav-width-md: 210px
 $nav-width-lg: 240px
 $nav-width-xl: 270px
 
+$nav-height: 82px
+
 *
     transition: all .25s ease
 
 body
     background-color: $gray
-    padding-bottom: 100px
+    padding-bottom: $nav-height
 
     @media screen and (min-width: 768px)
         padding-left: $nav-width-sm
@@ -28,6 +30,7 @@ body
     bottom: 0
     min-width: 0
     width: 100%
+    height: $nav-height
 
     color: $white
     text-align: left
@@ -51,19 +54,19 @@ body
         // Nav Color Customizations
         &:first-child
             .nav-icon
-                color: $blue
+                color: darken($blue, 5%)
             &.active
                 a
-                    border-bottom: 1px solid $blue
-                    color: $blue
+                    border-bottom: 1px solid darken($blue, 5%)
+                    color: darken($blue, 5%)
 
         &:nth-child(2)
             .nav-icon
-                color: $green
+                color: darken($green, 10%)
             &.active
                 a
-                    border-bottom: 1px solid $green
-                    color: $green
+                    border-bottom: 1px solid darken($green, 10%)
+                    color: darken($green, 10%)
 
         &:nth-child(3)
             .nav-icon
@@ -75,11 +78,11 @@ body
 
         &:nth-child(4)
             .nav-icon
-                color: $purple
+                color: $yellow
             &.active
                 a
-                    border-bottom: 1px solid $purple
-                    color: $purple
+                    border-bottom: 1px solid $yellow
+                    color: $yellow
 
         a
             display: block
@@ -138,7 +141,7 @@ body
                 padding: 10px
                 color: $white
                 text-decoration: none
-                text-align: left
+                text-align: right
                 border-bottom: 1px solid $white
 
 
