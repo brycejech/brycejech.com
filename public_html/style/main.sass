@@ -43,36 +43,30 @@ section
     font-weight: 300
     margin-bottom: 40px
 
-.project
-    cursor: pointer
-    padding: 10px 25px
-    background-color: $white
-    color: $gray
-
-.project-link
-    padding: 8px 12px
-    margin-top: 15px
-    margin-bottom: 15px
-
-    color: darken($dark-green, 8%)
-    text-decoration: none
-
-    border: 1px solid darken($dark-green, 8%)
-    border-radius: 3px
-
-    cursor: pointer
-    transition: all .2s ease
-
-    &:hover
-        color: $white
-        background-color: darken($dark-green, 8%)
-
 iframe
     width: 500px
     max-width: 100%
     min-height: 400px
     display: block
     margin: 0 auto
+
+.talk-link
+    display: block
+    width: 225px
+    margin: 15px auto
+    padding: 8px 12px
+    font-weight: 300
+    text-align: center
+    background-color: transparent
+    cursor: pointer
+    border-radius: 3px
+    border: 1px solid $white
+    color: white
+
+    &:hover
+        text-decoration: none
+        background-color: $white
+        color: $red
 
 .sub-heading
     margin-bottom: 5px
@@ -104,6 +98,42 @@ iframe
         max-width: 75%
         margin: 15px auto
 
+
+/* === PROJECT SECTION STYLES === */
+
+#projects
+    .row
+        div[class*="col-"]
+            padding: 25px 50px
+
+.project
+    cursor: pointer
+    padding: 10px 25px
+    background-color: $white
+    color: $gray
+    max-height: 350px
+    overflow: hidden
+
+.project-link
+    padding: 8px 12px
+    margin-top: 15px
+    margin-bottom: 15px
+
+    color: darken($dark-green, 8%) !important
+    text-decoration: none
+
+    border: 1px solid darken($dark-green, 8%)
+    border-radius: 3px
+
+    cursor: pointer
+    transition: all .2s ease
+
+    &:hover
+        color: $white !important
+        background-color: darken($dark-green, 8%)
+.project-img
+    display: block
+    margin: 0 auto
 
 /* === CONTACT SECTION STYLES === */
 
@@ -234,3 +264,8 @@ footer
 @media screen and (max-width: 768px)
     .modal-xl
         width: 90%
+        max-width: 90%
+.modal a
+    color: $gray
+.modal p
+    padding: 0 35px

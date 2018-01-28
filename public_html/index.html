@@ -68,7 +68,9 @@
                 <div class="u-cb"></div>
             </ul>
         </nav>
+
         <div id="page-wrapper">
+
             <!-- ABOUT SECTION -->
             <section id="about" class="row">
                 <h1 class="section-heading">Hi, I'm Bryce</h1>
@@ -83,27 +85,48 @@
                     I build custom solutions using JavaScript / NodeJS, Python, C#, PostgreSQL, MongoDB, and any other technologies that are a good fit for any given problem. I am particularly interested in RESTful web services, web security, and application architecture and design patterns
                 </p>
                 <p>
-                    The aspect of web development that I enjoy most is identifying business processes with efficiency gaps and implementing lean, fully custom software solutions that solve those problems
+                    The aspect of web development that I enjoy most is identifying business processes with efficiency gaps and implementing lean, fully custom software solutions that fill those gaps
                 </p>
             </section>
 
             <!-- PROJECTS SECTION -->
-            <section id="projects" class="row">
+            <section id="projects">
                 <h1 class="section-heading">Projects</h1>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="project" data-toggle="modal" data-target="#basefront-modal">
-                        <h3 class="u-cntr u-ul">basefront</h3>
-                        <img src="img/basefront.png" alt="basefront screenshot">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="project" data-toggle="modal" data-target="#basefront-modal">
+                            <h3 class="u-cntr">Basefront</h3>
+                            <img src="img/basefront.png" alt="basefront screenshot">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="project" data-toggle="modal" data-target="#fccokc-modal">
+                            <h3 class="u-cntr">fccokc.com</h3>
+                            <img src="img/fccokc.png" alt="FCCOKC screenshot">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="project" data-toggle="modal" data-target="#quote-generator-modal">
-                        <h3 class="u-cntr">Random Quote Machine</h3>
-                        <img src="img/quotes.png" alt="quote machine screenshot">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="project" data-toggle="modal" data-target="#quote-generator-modal">
+                            <h3 class="u-cntr">Random Quote Machine</h3>
+                            <img src="img/quotes.png" alt="quote machine screenshot">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="project" data-toggle="modal" data-target="#thinblueline-modal">
+                            <h3 class="u-cntr">thinblueline.run</h3>
+                            <img src="img/thinblueline.jpg" alt="thinblueline screenshot">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="project" data-toggle="modal" data-target="#remembertheten-modal">
+                            <h3 class="u-cntr">remembertheten.com</h3>
+                            <img src="img/remembertheten.jpg" alt="remembertheten screenshot">
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -118,6 +141,7 @@
                         scrolling="no"
                         allowfullscreen="true">
                     </iframe>
+                    <a href="https://github.com/brycejech/api-talk" rel="external" target="_blank" class="talk-link">Source Files</a>
                 </div>
                 <div id="csp-talk-container" class="col-md-12 col-lg-6">
                     <iframe
@@ -127,6 +151,7 @@
                         scrolling="no"
                         allowfullscreen="true">
                     </iframe>
+                    <a href="https://github.com/brycejech/content-security-policy" rel="external" target="_blank" class="talk-link">Source Files</a>
                 </div>
             </section>
 
@@ -312,19 +337,24 @@
         </div>
 
         <!-- MODALS -->
+
+        <!-- BASEFRONT -->
         <div id="basefront-modal" class="modal">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content row">
                     <div class="col-12">
-                        <h1 class="section-heading">basefront</h1>
+                        <h1 class="section-heading">Basefront</h1>
                         <p>
-                            basefront is a css micro-framework designed to facilitate rapid development while keeping a project as lean as possible.
+                            Basefront is a css micro-framework designed to facilitate rapid development while keeping a project as lean as possible.
                         </p>
                         <p>
-                            basefront is small like Skeleton, and provides the same grid syntax as Bootstrap. This way, projects can stay lean and provide for a less painful replacement of basefront with Bootstrap if the need arises. The primary difference between basefront and Skeleton is that basefront does not use margin-based guttering.
+                            Basefront is small like Skeleton.css (primary difference that basefront uses margin-based guttering), and provides the same grid syntax as Bootstrap. This way, projects can stay lean while providing an easy way to swap in Bootstrap later.
                         </p>
                         <p>
                             This site was built using basefront as a jumping off point.
+                        </p>
+                        <p>
+                            <strong>Skills Used:</strong> CSS3, Responsive Design
                         </p>
                     </div>
                     <div class="col-6 u-cntr">
@@ -333,15 +363,22 @@
                     <div class="col-6 u-cntr">
                         <a class="project-link" href="https://basefront.brycejech.com" rel="external" target="_blank">View project website</a>
                     </div>
-                    <img src="img/basefront.png" alt="basefront image">
+                    <img class="project-img" src="img/basefront.png" alt="basefront image">
                 </div>
             </div>
         </div>
 
+        <!-- RANDOM QUOTE MACHINE -->
         <div id="quote-generator-modal" class="modal">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <h1 class="section-heading">Random Quote Machine</h1>
+                    <h1 class="section-heading">Random Quote Generator</h1>
+                    <p>
+                        This was a project completed for FreeCodeCamp.com. This random quote generator uses an API to fetch random quotes from the internet and display them to the user. It has a clean UI with smooth transitions and allows users to tweet quotes they want to share.
+                    </p>
+                    <p>
+                        <strong>Skills Used:</strong> JavaScript, AJAX, CSS3, Responsive Design, UX Design
+                    </p>
                     <div class="row">
                         <div class="col-2"></div>
                         <div class="col-8 u-cntr">
@@ -351,7 +388,93 @@
                     </div>
                     <br>
                     <br>
-                    <img src="img/quotes.png" alt="">
+                    <img class="project-img" src="img/quotes.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- FCCOKC.COM -->
+        <div id="fccokc-modal" class="modal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <h1 class="section-heading">freeCodeCamp OKC Website</h1>
+                    <p>
+                        freeCodeCamp OKC is a local meetup in the Oklahoma City Area for devleopers to network with other developers who are using freecodecamp.com to learn how to code
+                    </p>
+                    <p>
+                        For this site, I have fixed several bugs, made style updates, and written several beginner friendly articles to help new programmers get involved in contributing to open source software
+                    </p>
+                    <p>
+                        To date, I have made over <a href="https://github.com/FreeCodeCampOKC/fccokc_web/commits?author=brycejech" rel="external" target="_blank">50 commits</a> and <a href="https://github.com/FreeCodeCampOKC/fccokc_web/pulls?q=is%3Apr+author%3Abrycejech" rel="external" target="_blank">6 pull requests</a> to this project
+                    </p>
+                    <p>
+                        <strong>Skills Used:</strong> JavaScript, CSS3, Technical Writing, Public Speaking, Collaboration
+                    </p>
+                    <div class="row">
+                        <div class="col-6 u-cntr">
+                            <a href="https://github.com/brycejech/fccokc_web" rel="external" target="_blank" class="project-link">View Project on GitHub</a>
+                        </div>
+                        <div class="col-6 u-cntr">
+                            <a href="http://fccokc.com" rel="external" target="_blank" class="project-link">View Site</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <img src="img/fccokc.png" alt="fccokc screenshot" class="project-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- THINBLUELINE.RUN -->
+        <div id="thinblueline-modal" class="modal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <h1 class="section-heading">thinblueline.run Website</h1>
+                    <p>
+                        The Run/Walk for the Thin Blue Line is an annual charity run sponsored by OKCOPS. The 2018 run will be the 16th annual event. I volunteered my time to create this website and set up a giving form for the organization through Qgiv. I built this micro-site in the Summer of 2017 and continue to make updates.
+                    </p>
+                    <p>
+                        The site features images from runs past, responsive design, a race results search feature, and details about the organization and next year's race. OKCOPS is a chapter of <a href="https://nationalcops.org" rel="external" target="_blank">National COPS</a> (Concerns of Police Survivors), a registered 501c3 non-profit organization. COPS provides support to family members of police officers who have been killed in the line of duty
+                    </p>
+                    <p>
+                        <strong>Skills Used:</strong> JavaScript, CSS3, Responsive Design, Collaboration
+                    </p>
+                    <div class="row">
+                        <div class="col-6 u-cntr">
+                            <a href="https://github.com/brycejech/thinblueline.run" rel="external" target="_blank" class="project-link">View Project on GitHub</a>
+                        </div>
+                        <div class="col-6 u-cntr">
+                            <a href="https://thinblueline.run" rel="external" target="_blank" class="project-link">View Site</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <img src="img/thinblueline.jpg" alt="thinblueline screenshot">
+                </div>
+            </div>
+        </div>
+
+        <!-- REMEMBERTHETEN.COM -->
+        <div id="remembertheten-modal" class="modal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <h1 class="section-heading">remembertheten.com Website</h1>
+                    <p>
+                        Remember the Ten is an annual remembrance run in memory of the 10 OSU family members that perished in a plane crash in 2001. The 2018 run will be the 12th annual event.
+                    </p>
+                    <p>
+                        I volunteered to take over as webmaster for this site in 2017 and have made updates related to the 2018 race event. We plan to start looking at a re-design of the site with improved mobile responsiveness and more interactive features after the conclusion of the 2018 event.
+                    </p>
+                    <p>
+                        <strong>Skills Used:</strong> Joomla, CSS3, Collaboration
+                    </p>
+                    <div class="row">
+                        <div class="col-4"></div>
+                        <div class="col-4 u-cntr">
+                            <a href="https://remembertheten.com" rel="external" target="_blank" class="project-link">View Site</a>
+                        </div>
+                        <div class="col-4"></div>
+                    </div>
+                    <hr>
+                    <img src="img/remembertheten.jpg" alt="remembertheten screenshot">
                 </div>
             </div>
         </div>
