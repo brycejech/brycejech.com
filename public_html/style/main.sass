@@ -104,7 +104,12 @@ iframe
 #projects
     .row
         div[class*="col-"]
-            padding: 25px 50px
+            padding: 10px 20px
+
+            @media screen and (min-width: 768px)
+                padding: 15px 25px
+            @media screen and (min-width: 992px)
+                padding: 25px 50px
 
 .project
     cursor: pointer
@@ -113,6 +118,15 @@ iframe
     color: $gray
     max-height: 350px
     overflow: hidden
+
+.project-heading
+    font-size: 2.2rem
+    @media screen and (min-width: 568px)
+        font-size: 2.5rem
+    @media screen and (min-width: 768px)
+        font-size: 2.8rem
+    @media screen and (min-width: 992px)
+        font-size: 3.2rem
 
 .project-link
     padding: 8px 12px
