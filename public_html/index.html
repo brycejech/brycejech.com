@@ -93,12 +93,20 @@
             <section id="projects">
                 <h1 class="section-heading">Projects</h1>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="project" data-toggle="modal" data-target="#basefront-modal">
-                            <h3 class="project-heading">Basefront</h3>
-                            <img src="img/basefront.png" alt="basefront screenshot">
+                    <div class="col-md-6">
+                        <div class="project" data-toggle="modal" data-target="#minesweeper-modal">
+                            <h3 class="project-heading">Minesweeper</h3>
+                            <img src="img/minesweeper.png" alt="Minesweeper Screenshot">
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="project" data-toggle="modal" data-target="#nucleon-modal">
+                            <h3 class="project-heading">Nucleon</h3>
+                            <img src="img/nucleon.png" alt="Nucleon Screenshot">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="project" data-toggle="modal" data-target="#fccokc-modal">
                             <h3 class="project-heading">fccokc.com</h3>
@@ -132,9 +140,11 @@
 
             <!-- TALKS SECTION -->
             <section id="talks" class="row">
+
                 <h1 class="section-heading">Talks</h1>
 
-                <div id="git-talk-container" class="col-md-12 col-lg-6">
+                <div class="col-md-12 col-lg-6">
+                    <h5 class="u-cntr">Intro to Git</h5>
                     <iframe
                         id="git-talk"
                         src="https://player.twitch.tv/?video=v274088850&autoplay=false"
@@ -145,7 +155,8 @@
                     <a href="https://github.com/brycejech/talks/tree/master/Intro-to-Git" rel="external" target="_blank" class="talk-link">Source Files</a>
                 </div>
 
-                <div id="api-talk-container" class="col-md-12 col-lg-6">
+                <div class="col-md-12 col-lg-6">
+                    <h5 class="u-cntr">Intro to HTTP APIs</h5>
                     <iframe
                         id="api-talk"
                         src="https://player.twitch.tv/?autoplay=false&video=v220751531"
@@ -156,7 +167,8 @@
                     <a href="https://github.com/brycejech/talks/tree/master/Intro-to-APIs" rel="external" target="_blank" class="talk-link">Source Files</a>
                 </div>
 
-                <div id="csp-talk-container" class="col-md-12 col-lg-6">
+                <div class="col-md-12 col-lg-6">
+                    <h5 class="u-cntr">Content Security Policy</h5>
                     <iframe
                         id="csp-talk"
                         src="https://player.twitch.tv/?video=v181062298&autoplay=false"
@@ -352,33 +364,57 @@
 
         <!-- MODALS -->
 
-        <!-- BASEFRONT -->
-        <div id="basefront-modal" class="modal modal-xl">
+        <!-- MINESWEEPER -->
+        <div id="minesweeper-modal" class="modal modal-xl">
             <div class="modal-dialog">
                 <div class="modal-content row">
                     <div class="modal-close">&times;</div>
                     <div class="col-12">
-                        <h1 class="section-heading">Basefront</h1>
+                        <div class="section-heading">Minesweeper</div>
                         <p>
-                            Basefront is a css micro-framework designed to facilitate rapid development while keeping a project as lean as possible.
+                            Classic Minesweeper game written in pure JavaScript.
+                        </p>
+                        <h5>Features:</h5>
+                        <ul>
+                            <li>Dependency free, object oriented implementation</li>
+                            <li>Provides a unique "Hint" feature not found in other implementations</li>
+                            <li>Elegant, high contrast, and unique user interface</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 u-cntr">
+                        <a class="project-link" href="https://github.com/brycejech/minesweeper" rel="external" target="_blank">View project on GitHub</a>
+                    </div>
+                    <div class="col-6 u-cntr">
+                        <a class="project-link" href="https://minesweeper.brycejech.com" rel="external" target="_blank">Play Minesweeper</a>
+                    </div>
+                    <img src="img/minesweeper.png" alt="Minesweeper Image" class="project-img">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Nucleon -->
+        <div id="nucleon-modal" class="modal modal-xl">
+            <div class="modal-dialog">
+                <div class="modal-content row">
+                    <div class="modal-close">&times;</div>
+                    <div class="col-12">
+                        <div class="section-heading">Nucleon</div>
+                        <p>
+                            Nucleon is a CSS micro-framework designed to facilitate rapid development while keeping a project as lean as possible.
                         </p>
                         <p>
-                            Basefront is small like Skeleton.css (primary difference that basefront uses margin-based guttering), and provides the same grid syntax as Bootstrap. This way, projects can stay lean while providing an easy way to swap in Bootstrap later.
-                        </p>
-                        <p>
-                            This site was built using basefront as a jumping off point.
-                        </p>
-                        <p>
-                            <strong>Skills Used:</strong> CSS3, Responsive Design
+                            This site was built using Nucleon as a start-off point.
                         </p>
                     </div>
                     <div class="col-6 u-cntr">
-                        <a class="project-link" href="https://github.com/brycejech/basefront" rel="external" target="_blank">View project on GitHub</a>
+                        <a class="project-link" href="https://github.com/brycejech/nucleon" rel="external" target="_blank">View project on GitHub</a>
                     </div>
                     <div class="col-6 u-cntr">
-                        <a class="project-link" href="https://basefront.brycejech.com" rel="external" target="_blank">View project website</a>
+                        <a class="project-link" href="https://getnucleon.com" rel="external" target="_blank">View Website</a>
                     </div>
-                    <img class="project-img" src="img/basefront.png" alt="basefront image">
+                    <img src="img/nucleon.png" alt="Nucleon Image" class="project-img">
+
                 </div>
             </div>
         </div>
