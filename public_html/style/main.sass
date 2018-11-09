@@ -52,30 +52,7 @@ section
     font-weight: 300
     margin-bottom: 28px
 
-iframe
-    width: 500px
-    max-width: 100%
-    min-height: 400px
-    display: block
-    margin: 0 auto
 
-.talk-link
-    display: block
-    width: 225px
-    margin: 15px auto
-    padding: 8px 12px
-    font-weight: 300
-    text-align: center
-    background-color: transparent
-    cursor: pointer
-    border-radius: 3px
-    border: 1px solid $white
-    // color: white
-
-    &:hover
-        text-decoration: none
-        background-color: $white
-        color: $red
 
 .sub-heading
     margin-bottom: 5px
@@ -128,7 +105,7 @@ iframe
 
 .project
     cursor: pointer
-    padding: 10px 25px
+    padding: 15px 25px
     background-color: darken($gray, 13%)
     border-radius: 3px
     margin-bottom: 28px
@@ -192,6 +169,39 @@ iframe
     max-width: 100%
     border-radius: 3px
 
+/* === TALK SECTION STYLES === */
+
+.talk
+    background-color: darken($gray, 13%)
+    border-radius: 3px
+    padding: 15px 25px
+
+iframe
+    width: 100%
+    max-width: 100%
+    min-height: 450px
+    display: block
+    margin: 0 auto
+
+
+.talk-link
+    display: block
+    width: 225px
+    margin: 15px auto
+    padding: 8px 12px
+    font-weight: 300
+    text-align: center
+    background-color: transparent
+    cursor: pointer
+    border-radius: 3px
+    border: 1px solid $red
+    color: white
+    background-color: $red
+
+    &:hover
+        text-decoration: none
+        background-color: darken($red, 15%)
+
 /* === CONTACT SECTION STYLES === */
 
 #contact-form-container
@@ -225,25 +235,27 @@ iframe
     .btn
         display: block
         margin: 0 auto
-        padding: 15px
-        width: 100%
+        padding: 8px 12px
+        width: 50%
 
         border: none
         outline: none
 
         font-family: 'Source Sans Pro', sans-serif
         font-weight: 300
-        font-size: 2.8rem
-        letter-spacing: .3rem
+        font-size: 2.6rem
+        line-height: 1.5
+        letter-spacing: .1rem
         cursor: pointer
-        // color: $white
-        background: $dark-purple radial-gradient(transparent, rgba(0,0,0,.25))
+        color: $white
+        background: $dark-purple
+        border-radius: 3px
 
         &:hover
             background-color: darken($dark-purple, 10%)
 
-        @media screen and (min-width: 768px)
-            width: 85%
+        // @media screen and (min-width: 768px)
+        //     width: 85%
 
 #submission-error
     display: none
