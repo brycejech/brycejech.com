@@ -104,15 +104,18 @@ iframe
 #projects
     .row
         div[class*="col-"]
-            padding: 5px 20px
+            padding: 5px 10px
 
             @media screen and (min-width: 768px)
-                padding: 10px 25px
+                padding: 10px 20px
             @media screen and (min-width: 992px)
-                padding: 15px 50px
+                padding: 15px 30px
 
     .modal
         color: $gray
+
+        p
+            padding-left: 0
 
 .project
     cursor: pointer
@@ -122,6 +125,12 @@ iframe
     &:hover .view-project
         background-color: $white
         color: darken($dark-green, 8%) !important
+
+    p
+        margin: 5px auto 10px
+
+    .project-heading
+        margin-bottom: 8px
 
 .project-heading
     font-size: 2.2rem
