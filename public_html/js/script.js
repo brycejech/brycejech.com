@@ -37,7 +37,7 @@
                             .getBoundingClientRect();
 
             if(bounds.top <= 0 && bounds.bottom > 0){
-                var el = document.querySelector(`[href="${ section }"]`);
+                var el = document.querySelector('[href="' + section + '"]');
                 activateNav(el);
                 break;
             }
