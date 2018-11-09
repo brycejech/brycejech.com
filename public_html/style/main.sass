@@ -117,13 +117,15 @@ iframe
 .project
     cursor: pointer
     padding: 10px 25px
-    background-color: $white
-    color: $gray
-    max-height: 350px
-    overflow: hidden
+    color: $white
+
+    &:hover .view-project
+        background-color: $white
+        color: darken($dark-green, 8%) !important
 
 .project-heading
     font-size: 2.2rem
+    text-align: center
     @media screen and (min-width: 568px)
         font-size: 2.5rem
     @media screen and (min-width: 768px)
@@ -131,7 +133,7 @@ iframe
     @media screen and (min-width: 992px)
         font-size: 3.2rem
 
-.project-link
+.project-link, .view-project
     padding: 8px 12px
     display: block
     margin-bottom: 5px
@@ -149,9 +151,23 @@ iframe
         color: $white !important
         background-color: darken($dark-green, 8%)
 
+.view-project
+    background-color: transparent
+    color: $white !important
+    border-color: $white
+    margin: 10px auto
+    font-size: 2.2rem
+    font-weight: 300
+
+    &:hover
+        background-color: $white
+        color: darken($dark-green, 8%) !important
+
 .project-img
     display: block
     margin: 0 auto
+    max-width: 100%
+    border-radius: 3px
 
 /* === CONTACT SECTION STYLES === */
 
