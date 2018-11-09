@@ -4,9 +4,18 @@
 body
     font-size: 1.8rem
     font-weight: 300
+    color: $white
+    background-color: darken($gray, 5%)
 
 img
     max-width: 100%
+
+hr
+    display: block
+    border-color: black
+    max-width: 60%
+    position: relative
+    top: 85px
 
 #page-wrapper
     display: block
@@ -30,7 +39,7 @@ section
         line-height: 1.55
 
     a
-        color: white
+        color: $white
         text-decoration: none
         font-weight: bold
 
@@ -61,7 +70,7 @@ iframe
     cursor: pointer
     border-radius: 3px
     border: 1px solid $white
-    color: white
+    // color: white
 
     &:hover
         text-decoration: none
@@ -120,11 +129,13 @@ iframe
 .project
     cursor: pointer
     padding: 10px 25px
-    color: $white
+    background-color: darken($gray, 13%)
+    border-radius: 3px
+    margin-bottom: 28px
 
     &:hover .view-project
-        background-color: $white
-        color: darken($dark-green, 8%) !important
+        background-color: darken($green, 12%)
+        color: $white !important
 
     p
         margin: 5px auto 10px
@@ -162,9 +173,9 @@ iframe
         background-color: darken($dark-green, 8%)
 
 .view-project
-    background-color: transparent
+    background-color: darken($green, 5%)
     color: $white !important
-    border-color: $white
+    border-color: darken($green, 5%)
     margin: 10px auto
     font-size: 1.8rem
     font-weight: 300
@@ -172,12 +183,12 @@ iframe
     font-family: 'Open Sans', sans-serif
 
     &:hover
-        background-color: $white
-        color: darken($dark-green, 8%) !important
+        background-color: darken($green, 12%)
+        color: $white !important
 
 .project-img
     display: block
-    margin: 0 auto
+    margin: 15px auto
     max-width: 100%
     border-radius: 3px
 
@@ -225,7 +236,7 @@ iframe
         font-size: 2.8rem
         letter-spacing: .3rem
         cursor: pointer
-        color: $white
+        // color: $white
         background: $dark-purple radial-gradient(transparent, rgba(0,0,0,.25))
 
         &:hover
@@ -261,20 +272,22 @@ iframe
 /* === SECTION COLORING === /*
 
 #about
-    background: darken($blue, 20%) $shadow-gradient
-    color: $white
+    border-left: 2px solid darken($blue, 20%)
+    border-right: 2px solid darken($blue, 20%)
 #projects
-    background: $dark-green $shadow-gradient
-    color: $white
+    border-left: 2px solid $dark-green
+    border-right: 2px solid $dark-green
 #talks
-    background: $red $shadow-gradient
-    color: $white
+    border-left: 2px solid $red
+    border-right: 2px solid $red
 #contact
-    background: ($dark-purple) $shadow-gradient
-    color: $white
+    border-left: 2px solid $dark-purple
+    border-right: 2px solid $dark-purple
 
 footer
-    background: $gray $shadow-gradient
+    background: darken($gray, 13%)
+    border-left: 2px solid white
+    border-right: 2px solid white
 
 
 /* === FOOTER STYLING === */
