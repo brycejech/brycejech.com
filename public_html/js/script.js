@@ -36,7 +36,8 @@
                 bounds  = document.querySelector(section)
                             .getBoundingClientRect();
 
-            if(bounds.top <= 0 && bounds.bottom > 0){
+            if(Math.floor(bounds.top) <= 0 && Math.floor(bounds.bottom) > 0){
+                console.log(`${section}: top: ${bounds.top}, bottom: ${bounds.bottom}`)
                 var el = document.querySelector('[href="' + section + '"]');
                 activateNav(el);
                 break;

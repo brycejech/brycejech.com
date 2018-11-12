@@ -58,6 +58,51 @@ section
     margin-bottom: 5px
 
 
+/* === BUTTONS === */
+
+#talks .btn,
+#projects .btn
+    display: block
+    width: 225px
+    padding: 8px 12px
+    height: auto
+    margin: auto
+    color: $white
+
+    transition: all .2s ease
+
+#talks
+    .talk-btn
+        padding: 1rem
+        border: 1px solid darken($red, 15%)
+        background-color: $red
+
+        &:hover
+            text-decoration: none
+            background-color: darken($red, 15%)
+
+#projects
+    .project-link, .project-btn
+        border: 1px solid darken($dark-green, 10%)
+        text-decoration: none
+        &:hover
+            background-color: darken($dark-green, 10%)
+
+    .project-link
+        width: auto
+        color: darken($dark-green, 10%)
+        &:hover
+            color: $white
+
+    .project-btn
+        background-color: $dark-green
+        border-color: $dark-green
+        &:hover
+            background-color: darken($dark-green, 10%)
+            border-color: darken($dark-green, 10%)
+
+
+
 /* === ABOUT SECTION STYLES === */
 
 #about
@@ -88,15 +133,8 @@ section
 /* === PROJECT SECTION STYLES === */
 
 #projects
-    .row
-        div[class*="col-"]
-            padding: 0 1.4rem
-
     .modal
         color: $gray
-
-        p
-            padding-left: 0
 
 .project
     cursor: pointer
@@ -104,10 +142,6 @@ section
     background-color: darken($gray, 13%)
     border-radius: 3px
     margin-bottom: 2.8rem
-
-    &:hover .view-project
-        background-color: darken($green, 12%)
-        color: $white !important
 
     p
         margin: 5px auto 10px
@@ -125,38 +159,6 @@ section
         font-size: 2.8rem
     @media screen and (min-width: 992px)
         font-size: 3.2rem
-
-.project-link, .view-project
-    padding: 8px 12px
-    display: block
-    margin-bottom: 5px
-
-    color: darken($dark-green, 8%) !important
-    text-decoration: none
-
-    border: 1px solid darken($dark-green, 8%)
-    border-radius: 3px
-
-    cursor: pointer
-    transition: all .2s ease
-
-    &:hover
-        color: $white !important
-        background-color: darken($dark-green, 8%)
-
-.view-project
-    background-color: darken($green, 5%)
-    color: $white !important
-    border-color: darken($green, 5%)
-    margin: 10px auto
-    font-size: 1.8rem
-    font-weight: 300
-    width: 225px
-    font-family: 'Open Sans', sans-serif
-
-    &:hover
-        background-color: darken($green, 12%)
-        color: $white !important
 
 .project-img
     display: block
@@ -176,26 +178,10 @@ iframe
     max-width: 100%
     min-height: 450px
     display: block
-    margin: 0 auto
+    margin: 0 auto 12px
 
 
-.talk-link
-    display: block
-    width: 225px
-    margin: 15px auto
-    padding: 8px 12px
-    font-weight: 300
-    text-align: center
-    background-color: transparent
-    cursor: pointer
-    border-radius: 3px
-    border: 1px solid $red
-    color: white
-    background-color: $red
 
-    &:hover
-        text-decoration: none
-        background-color: darken($red, 15%)
 
 /* === CONTACT SECTION STYLES === */
 
@@ -232,24 +218,15 @@ iframe
         padding: 8px 12px
         width: 50%
 
-        border: none
-        outline: none
-
         font-family: 'Source Sans Pro', sans-serif
-        font-weight: 300
+        font-weight: 500
         font-size: 2.6rem
-        line-height: 1.5
-        letter-spacing: .1rem
-        cursor: pointer
+        height: auto
         color: $white
-        background: $dark-purple
-        border-radius: 3px
+        background-color: $dark-purple
 
         &:hover
             background-color: darken($dark-purple, 10%)
-
-        // @media screen and (min-width: 768px)
-        //     width: 85%
 
 #submission-error
     display: none
