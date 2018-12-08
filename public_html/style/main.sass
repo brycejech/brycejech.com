@@ -105,9 +105,12 @@ section
     .project-link
         width: auto
         color: darken($dark-green, 10%)
-        margin-bottom: 2rem
+        margin-bottom: 0
         &:hover
             color: $white
+
+        @media screen and (min-width: 768px)
+            margin-bottom: 2rem
 
     .project-btn
         background-color: $dark-green
