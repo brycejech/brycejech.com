@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>This is the Adventures single template</h1>
+
+
+<h3>{{ .Title }} - "{{ .Kind }}"</h3>
+{{ .Content }}
+
+{{ partial "sectionPages" .Parent }}
+
+{{ end }}

@@ -1,0 +1,43 @@
+<nav id="site-nav" class="site-nav">
+  {{ $currentPage := .Page.RelPermalink }}
+  {{ $image := resources.Get "svg/hamburger.svg" }}
+  <button id="menu-btn" class="menu-btn">
+    <img src="{{ $image.RelPermalink }}" />
+  </button>
+  <div class="nav-container">
+    <button id="close-nav" class="close-nav">&times;</button>
+    <ul class="nav-items">
+      <li>
+        {{ if eq $currentPage "/" }}
+          <a class="nav-item active" href="/">HOME</a>
+        {{ else }}
+          <a class="nav-item" href="/">HOME</a>
+        {{ end }}
+      </li>
+      {{ range .Site.Sections }}
+        <li>
+          {{ if in $currentPage .RelPermalink }}
+            <a class="nav-item active" href="{{ .Permalink }}">
+              {{ upper .Title }}
+            </a>
+          {{ else }}
+            <a class="nav-item" href="{{ .Permalink }}">{{ upper .Title }}</a>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>
+
+<script type="text/javascript">
+  const menuBtn = document.getElementById("menu-btn");
+  const closeBtn = document.getElementById("close-nav");
+  const nav = document.getElementById("site-nav");
+
+  menuBtn.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+  closeBtn.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+</script>

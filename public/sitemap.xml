@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/adventures/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/adventures/orlando/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/recipes/breakfastparfait/</loc>
+  </url><url>
+    <loc>http://example.org/recipes/carnitas/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/recipes/geniusstew/</loc>
+  </url><url>
+    <loc>http://example.org/projects/kidgrid/</loc>
+  </url><url>
+    <loc>http://example.org/projects/</loc>
+  </url><url>
+    <loc>http://example.org/recipes/quichemuffins/</loc>
+  </url><url>
+    <loc>http://example.org/recipes/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+</urlset>

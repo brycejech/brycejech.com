@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adventures on My New Hugo Site</title>
+    <link>http://example.org/adventures/</link>
+    <description>Recent content in Adventures on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/adventures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orlando Trip</title>
+      <link>http://example.org/adventures/orlando/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/adventures/orlando/</guid>
+      <description>The family took a trip to Orlando, FL for Wylie to compete in the International Geography Bee.
+We flew out on June 15th 2022 and returned on the 21st. This was the kids&amp;rsquo; first plane ride.
+Activities:
+Pirate Putting Escape room Universal Studios Icon Park Swing ride Zombie killing Tin roof </description>
+    </item>
+    
+  </channel>
+</rss>

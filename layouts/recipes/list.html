@@ -1,0 +1,47 @@
+{{ define "main" }}
+  <h1>Recipes</h1>
+
+  <div class="recipe-list">
+    {{ range .Pages }}
+      <div class="recipe-list-item">
+        <a href="{{ .Permalink }}" class="recipe-list-item-card">
+          {{ if .Params.featuredImage }}
+            {{ $image := resources.Get .Params.featuredImage }}
+            <div style="background-image: url('{{ $image.RelPermalink }}');" class="image-container">
+          {{ else }}
+            <div style="background-image: url('https://placebear.com/300/300');" class="image-container">
+          {{ end }}
+            <div class="background">
+            </div>
+          </div>
+          
+          <div class="item-body">
+            <h2 class="recipe-title">{{ .Title }}</h2>
+            <p>
+              <small>
+                <b>Ingredients:</b>
+                {{ $len := (len .Params.ingredients) }}
+                {{ range $index, $ingredient := .Params.ingredients }}
+                    <span class="ingredient">
+                      {{ $ingredient.name }}{{ if not (eq (add $index 1) $len) }},&nbsp;{{end}}
+                    </span>
+                {{ end }}
+              </small>
+
+              <br>
+
+              <small><b>Prep Time:</b> {{ .Params.totalTime }}</small>
+
+              <br>
+
+              <small><b>Toal Time:</b> {{ .Params.totalTime }}</small>
+            </p>
+            {{ partial "tags" . }}
+          </div>
+        </a>
+
+      </div>
+    {{  end }}
+  </div>
+
+{{ end }}
