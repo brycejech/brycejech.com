@@ -1,6 +1,7 @@
 ---
-title: Beef Stroganoff
+title: Easy Beef "Stroganoff"
 date: 2022-07-22T09:11:23-05:00
+description: Traditionally made with braised or seared cuts of meat, this alternative to a more typical beef stroganoff recipe makes for a  quick, easy, and delicious weeknight meal. 
 
 ingredients:
   - name: Reames Egg Noodles

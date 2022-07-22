@@ -1,14 +1,25 @@
+@import "variables";
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .recipe-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
+  position: relative;
+
   .recipe-list-item {
     flex: 1 0 100%;
-    padding: 1rem;
+    padding: 0.4rem;
 
     a.recipe-list-item-card {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
       border-radius: 3px;
       overflow: hidden;
 
@@ -16,8 +27,15 @@
       color: #1e1e1e;
       background-color: white;
 
-      height: 100%;
       border: 1px solid rgba(0, 0, 0, 0.1);
+
+      hr {
+        width: 65%;
+        background-color: transparent;
+        border: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        margin: 1.4rem auto;
+      }
 
       .image-container {
         width: 100%;
@@ -40,15 +58,30 @@
       }
 
       .item-body {
+        display: flex;
+        flex-direction: column;
+
         padding: 0.4rem;
       }
 
       .recipe-title {
         display: inline-block;
-        margin: 0;
-        margin-top: 0.4rem;
+        margin: 0.4rem 0 0.6rem;
         padding: 0;
         font-weight: 300;
+      }
+
+      .description,
+      .ingredient-list {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 0;
+      }
+
+      .tag-container {
+        margin-top: auto;
+        align-self: flex-end;
+        padding: 0rem 0.2rem 0.4rem;
       }
     }
 
@@ -57,11 +90,39 @@
     }
 
     @media (min-width: 992px) {
-      flex: 0 1 33.3333%;
+      flex: 0 1 50%;
     }
 
     @media (min-width: 1200px) {
+      flex: 0 1 33.3333%;
+    }
+
+    @media (min-width: 1500px) {
       flex: 0 1 25%;
     }
+  }
+}
+
+.recipe {
+  .section-menu {
+    display: none;
+  }
+  .featured-image {
+    width: 100%;
+  }
+
+  @media (min-width: 992px) {
+    flex: 0 1 60%;
+    padding: 2rem 1rem;
+  }
+}
+
+.sidebar {
+  padding: 2rem 1rem;
+  display: none;
+
+  @media (min-width: 992px) {
+    display: inline-block;
+    flex: 0 1 300px;
   }
 }

@@ -5,9 +5,9 @@
   background-color: black;
   color: white;
   border-radius: 3px;
-  padding: 2px;
-  font-size: 13px;
-  font-weight: 200;
+  padding: 2px 4px;
+  font-size: 14px;
+  font-weight: 400;
   margin-right: 0.2rem;
 
   &[data-tagname="Meal Prep"] {
@@ -16,5 +16,21 @@
 
   &[data-tagname="Breakfast"] {
     background-color: $orange;
+  }
+
+  &[data-tagname="Quick Meals"] {
+    background-color: $red;
+  }
+
+  &[data-tagname="Sauces"] {
+    background-color: $purple;
+  }
+
+  &[data-tagname="Mexican"] {
+    background-color: $green;
+  }
+
+  &[data-tagname="High Protein"] {
+    background-color: $dark-gray;
   }
 }

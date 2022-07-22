@@ -1,0 +1,21 @@
+<aside class="section-menu">
+  <h3>Related Pages</h3>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .Permalink }}">
+          {{ with .Params.featuredImage }}
+            {{ $image := resources.Get . }}
+            {{ with $image }}
+              <div
+                class="page-image"
+                style="background-image: url('{{ .RelPermalink }}');"
+              ></div>
+            {{ end }}
+          {{ end }}
+          <span class="title">{{ .Title }}</span>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</aside>

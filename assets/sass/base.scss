@@ -11,8 +11,12 @@ html {
 
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
+  color: $text-color;
 
   background-color: $off-white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -24,10 +28,10 @@ body {
 main {
   z-index: 0;
   flex: 1 1 auto;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   padding-bottom: $nav-height;
 
   @media (min-width: 992px) {
-    padding-left: calc(#{$nav-width} + 1rem);
+    padding-left: calc(#{$nav-width});
   }
 }

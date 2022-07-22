@@ -1,6 +1,7 @@
 ---
 title: "Quiche Muffins"
 date: 2022-07-15T18:13:30-05:00
+description: Packable breakfast "muffins" using eggs and (optionally) cheese as a binder, these can be made at the beginning of the week and refrigerated for easily re-heatable breakfasts all week long.
 
 ingredients:
   - name: Ingredient 1
@@ -31,4 +32,5 @@ featuredImage: images/recipes/QuicheMuffins/QuicheMuffins.jpg
 tags:
   - Breakfast
   - Meal Prep
+  - High Protein
 ---

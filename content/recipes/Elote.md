@@ -1,6 +1,7 @@
 ---
 title: "Elote"
 date: 2022-07-22T09:26:13-05:00
+description: Grilled corn slathered in a sauce of sour cream, mayonnaise, and chili powder, and sprinkled with cotija cheese and cilantro. A popular snack served by street vendors in Mexico, so it's often called Mexican street corn. When served in a cup it is referred to as esquitas or elote en vaso.
 
 ingredients:
   - name: Corn
