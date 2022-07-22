@@ -1,0 +1,12 @@
+{
+  "name": "brycejech.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bryce Jech <bryce@brycejech.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-go-template": "^0.0.13"
+  }
+}

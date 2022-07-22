@@ -1,0 +1,20 @@
+@import "colors";
+
+.tag {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 13px;
+  font-weight: 200;
+  margin-right: 0.2rem;
+
+  &[data-tagname="Meal Prep"] {
+    background-color: $lime;
+  }
+
+  &[data-tagname="Breakfast"] {
+    background-color: $orange;
+  }
+}
