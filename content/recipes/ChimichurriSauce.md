@@ -1,5 +1,5 @@
 ---
-title: "ChimichurriSauce"
+title: "Chimichurri Sauce"
 date: 2022-07-22T09:19:31-05:00
 
 ingredients:

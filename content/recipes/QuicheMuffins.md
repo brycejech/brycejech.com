@@ -1,5 +1,5 @@
 ---
-title: "QuicheMuffins"
+title: "Quiche Muffins"
 date: 2022-07-15T18:13:30-05:00
 
 ingredients:

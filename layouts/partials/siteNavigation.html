@@ -1,29 +1,31 @@
 <nav id="site-nav" class="site-nav">
+  <h2 class="nav-title">{ Bryce Jech }</h2>
   {{ $currentPage := .Page.RelPermalink }}
   {{ $image := resources.Get "svg/hamburger.svg" }}
   <button id="menu-btn" class="menu-btn">
     <img src="{{ $image.RelPermalink }}" />
   </button>
+
   <div class="nav-container">
     <button id="close-nav" class="close-nav">&times;</button>
     <ul class="nav-items">
       <li>
         {{ if eq $currentPage "/" }}
-          <a class="nav-item active" href="/">HOME</a>
+        <a class="nav-item active" href="/">HOME</a>
         {{ else }}
-          <a class="nav-item" href="/">HOME</a>
+        <a class="nav-item" href="/">HOME</a>
         {{ end }}
       </li>
       {{ range .Site.Sections }}
-        <li>
-          {{ if in $currentPage .RelPermalink }}
-            <a class="nav-item active" href="{{ .Permalink }}">
-              {{ upper .Title }}
-            </a>
-          {{ else }}
-            <a class="nav-item" href="{{ .Permalink }}">{{ upper .Title }}</a>
-          {{ end }}
-        </li>
+      <li>
+        {{ if in $currentPage .RelPermalink }}
+        <a class="nav-item active" href="{{ .Permalink }}">
+          {{ upper .Title }}
+        </a>
+        {{ else }}
+        <a class="nav-item" href="{{ .Permalink }}">{{ upper .Title }}</a>
+        {{ end }}
+      </li>
       {{ end }}
     </ul>
   </div>
