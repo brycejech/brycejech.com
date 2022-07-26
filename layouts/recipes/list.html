@@ -17,9 +17,14 @@
 
         <div class="item-body">
           <h2 class="recipe-title">{{ .Title }}</h2>
+          {{ with .Params.description }}
+          <p>{{ . | truncate 140 }}</p>
+          <hr>
+          {{ end }}
           <p>
             <small>
               <b>Ingredients:</b>
+              <br />
               {{ $len := (len .Params.ingredients) }}
               {{ range $index, $ingredient := .Params.ingredients }}
               <span class="ingredient">
@@ -27,14 +32,6 @@
               </span>
               {{ end }}
             </small>
-
-            <br>
-
-            <small><b>Prep Time:</b> {{ .Params.totalTime }}</small>
-
-            <br>
-
-            <small><b>Toal Time:</b> {{ .Params.totalTime }}</small>
           </p>
         </div>
         {{ partial "tags" . }}

@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas, exercitationem minima eligendi nostrum tempore eos porro quo delectus modi, itaque vel maxime, dicta quidem! Quod hic a fugit. Corrupti.
 
 ingredients:
   - name: Ingredient 1

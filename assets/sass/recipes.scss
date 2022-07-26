@@ -5,7 +5,7 @@
 
   .recipe-list-item {
     flex: 1 0 100%;
-    padding: 1rem;
+    padding: 0.4rem;
 
     a.recipe-list-item-card {
       display: flex;
@@ -19,6 +19,14 @@
       background-color: white;
 
       border: 1px solid rgba(0, 0, 0, 0.1);
+
+      hr {
+        width: 65%;
+        background-color: transparent;
+        border: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        margin: 0.4rem auto;
+      }
 
       .image-container {
         width: 100%;
@@ -58,7 +66,7 @@
       .tag-container {
         margin-top: auto;
         align-self: flex-end;
-        padding: 0.4rem 0.2rem;
+        padding: 0rem 0.2rem 0.4rem;
       }
     }
 

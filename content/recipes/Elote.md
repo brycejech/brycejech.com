@@ -1,6 +1,7 @@
 ---
 title: "Elote"
 date: 2022-07-22T09:26:13-05:00
+description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas, exercitationem minima eligendi nostrum tempore eos porro quo delectus modi, itaque vel maxime, dicta quidem! Quod hic a fugit. Corrupti.
 
 ingredients:
   - name: Corn
