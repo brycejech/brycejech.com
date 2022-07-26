@@ -25,7 +25,7 @@
         background-color: transparent;
         border: none;
         border-top: 1px solid rgba(0, 0, 0, 0.2);
-        margin: 0.4rem auto;
+        margin: 1.4rem auto;
       }
 
       .image-container {
@@ -57,10 +57,16 @@
 
       .recipe-title {
         display: inline-block;
-        margin: 0;
-        margin-top: 0.4rem;
+        margin: 0.4rem 0 0.6rem;
         padding: 0;
         font-weight: 300;
+      }
+
+      .description,
+      .ingredient-list {
+        font-size: 14px;
+        font-weight: 200;
+        margin: 0;
       }
 
       .tag-container {
