@@ -1,0 +1,28 @@
+@import "colors";
+
+.section-menu {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+
+    a {
+      display: flex;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      margin-bottom: 0.4rem;
+      color: $text-color;
+      text-decoration: none;
+      border-radius: 3px;
+      overflow: hidden;
+
+      .page-image {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

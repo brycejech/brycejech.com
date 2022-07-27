@@ -1,7 +1,7 @@
 ---
 title: Breakfast Parfait
 date: 2022-07-14
-description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas, exercitationem minima eligendi nostrum tempore eos porro quo delectus modi, itaque vel maxime, dicta quidem! Quod hic a fugit. Corrupti.
+description: Greek yogurt fruit parfait naturally sweetened and colored with mashed blackberries and added blueberries and raspberries optionally topped with a high protein granola for extra protein
 
 ingredients:
   - name: Greek Yogurt
@@ -37,6 +37,7 @@ featuredImage: images/recipes/BreakfastParfait/BreakfastParfait.jpg
 tags: 
   - Breakfast
   - Meal Prep
+  - High Protein
 ---
 
 This is the recipe for breakfast parfait

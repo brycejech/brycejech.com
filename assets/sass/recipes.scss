@@ -1,7 +1,16 @@
+@import "variables";
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .recipe-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  position: relative;
 
   .recipe-list-item {
     flex: 1 0 100%;
@@ -64,7 +73,7 @@
 
       .description,
       .ingredient-list {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 200;
         margin: 0;
       }
@@ -81,11 +90,39 @@
     }
 
     @media (min-width: 992px) {
-      flex: 0 1 33.3333%;
+      flex: 0 1 50%;
     }
 
     @media (min-width: 1200px) {
+      flex: 0 1 33.3333%;
+    }
+
+    @media (min-width: 1500px) {
       flex: 0 1 25%;
     }
+  }
+}
+
+.recipe {
+  .section-menu {
+    display: none;
+  }
+  .featured-image {
+    width: 100%;
+  }
+
+  @media (min-width: 992px) {
+    flex: 0 1 60%;
+    padding: 2rem 1rem;
+  }
+}
+
+.sidebar {
+  padding: 2rem 1rem;
+  display: none;
+
+  @media (min-width: 992px) {
+    display: inline-block;
+    flex: 0 1 300px;
   }
 }

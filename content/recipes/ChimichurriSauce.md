@@ -1,7 +1,7 @@
 ---
-title: "Chimichurri Sauce"
+title: Chimichurri Sauce
 date: 2022-07-22T09:19:31-05:00
-description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas, exercitationem minima eligendi nostrum tempore eos porro quo delectus modi, itaque vel maxime, dicta quidem! Quod hic a fugit. Corrupti.
+description: A spicy Argentinian herb sauce or marinade often served with grilled and roasted meats. Chimichurri Sauce generally consists of water, salt, garlic, parsley, oregano, pepper, red chile peppers, lemon zest, red or white-wine vinegar, and extra-virgin olive oil.
 
 ingredients:
   - name: Shallot
@@ -55,4 +55,8 @@ tags:
 
 ---
 
-Recipe for Chimichurri Sauce
+- Dice shallot, garlic, and jalapeños and lightly brown in a pan with olive oil
+- Finely chop cilantro, parsely, and oregano and add to blender
+- Measure and add red wine vinegar and olive oil to blender
+- Add shallot, garlic, and jalapeños to blender
+- Pulse blend until desired consistency reached

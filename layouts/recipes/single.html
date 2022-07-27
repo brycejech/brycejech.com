@@ -1,15 +1,37 @@
 {{ define "main" }}
-<div class="page-content">
-  {{ partial "sectionPages" .Parent }}
+  <div class="page-content">
+    <div class="recipe">
+      <h1>{{ .Title }}</h1>
+      <h4>Posted: {{ .Date | dateFormat ":date_long" }}</h4>
 
-  <h1>{{ .Title }}</h1>
-  <h4>Posted: {{ .Date | dateFormat ":date_long" }}</h4>
+      {{ $image := resources.Get .Params.featuredImage }}
+      {{ with $image }}
+        <img class="featured-image" src="{{ .RelPermalink }}" alt="" />
+      {{ end }}
+      <p>
+        {{ .Params.description }}
+      </p>
 
-  {{/*  {{ $image := resources.Get .Params.featuredImage }}
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          {{ range .Params.ingredients }}
+            <li>
+              <span class="ingredient-amount">{{ .amount }}</span>
+              <span class="ingredient-unit">{{ .unit }}</span>
+              <span class="ingredient-name">{{ .name }}</span>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
 
-  <img src="{{ $image.RelPermalink }}" alt="">  */}}
-  {{ .Content }}
-
-</div>
-
+      <div class="directions">
+        <h3>Directions</h3>
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="sidebar">
+      {{ partial "sectionMenu" .Parent }}
+    </div>
+  </div>
 {{ end }}
