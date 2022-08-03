@@ -4,8 +4,8 @@
     {{ range .Pages }}
       <li>
         <a href="{{ .Permalink }}">
-          {{ with .Params.featuredImage }}
-            {{ $image := resources.Get . }}
+          {{ if .Params.featuredImage }}
+            {{ $image := resources.Get .Params.featuredImage }}
             {{ with $image }}
               <div
                 class="page-image"

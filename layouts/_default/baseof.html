@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Title }} | BryceJech.com</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ .Title }} | BryceJech.com</title>
+    {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
+    {{ $sass := resources.Get "sass/main.scss" }}
+    {{ $style := $sass | resources.ToCSS $options }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  </head>
 
-  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)
-  "includePaths" (slice "node_modules/myscss")) }}
-  {{ $sass := resources.Get "sass/main.scss" }}
-  {{ $style := $sass | resources.ToCSS }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" />
-</head>
-
-<body>
-  {{ partial "siteNavigation" . }}
-  <main>
-    {{ block "main" . }}
-    {{ end }}
-  </main>
-</body>
-
+  <body>
+    {{ partial "siteNavigation" . }}
+    <main>
+      {{ block "main" . }}
+      {{ end }}
+    </main>
+  </body>
 </html>
