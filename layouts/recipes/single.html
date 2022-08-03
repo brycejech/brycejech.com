@@ -1,6 +1,6 @@
 {{ define "main" }}
-  <div class="page-content">
-    <div class="recipe">
+  <div class="page-wrapper has-sidebar">
+    <article class="page-content recipe">
       <h1>{{ .Title }}</h1>
       <h4>Posted: {{ .Date | dateFormat ":date_long" }}</h4>
 
@@ -11,6 +11,8 @@
       <p>
         {{ .Params.description }}
       </p>
+
+      <hr />
 
       <div class="ingredients">
         <h3>Ingredients</h3>
@@ -29,7 +31,7 @@
         <h3>Directions</h3>
         {{ .Content }}
       </div>
-    </div>
+    </article>
     <div class="sidebar">
       {{ partial "sectionMenu" .Parent }}
     </div>

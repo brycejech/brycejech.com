@@ -1,10 +1,11 @@
 {{ define "main" }}
-<h1>This is the Adventures single template</h1>
-
-
-<h3>{{ .Title }} - "{{ .Kind }}"</h3>
-{{ .Content }}
-
-{{ partial "sectionMenu" .Parent }}
-
+  <div class="page-wrapper has-sidebar">
+    <article class="page-content adventure">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </article>
+    <div class="sidebar">
+      {{ partial "sectionMenu" .Parent }}
+    </div>
+  </div>
 {{ end }}
