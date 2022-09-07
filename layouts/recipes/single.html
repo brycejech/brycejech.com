@@ -2,15 +2,17 @@
   <div class="page-wrapper has-sidebar">
     <article class="page-content recipe">
       <h1>{{ .Title }}</h1>
-      <h4>Posted: {{ .Date | dateFormat ":date_long" }}</h4>
+      <h5>Posted: {{ .Date | dateFormat ":date_long" }}</h5>
+
+      <p>
+        {{ .Params.description }}
+      </p>
 
       {{ $image := resources.Get .Params.featuredImage }}
       {{ with $image }}
         <img class="featured-image" src="{{ .RelPermalink }}" alt="" />
       {{ end }}
-      <p>
-        {{ .Params.description }}
-      </p>
+
 
       <hr />
 

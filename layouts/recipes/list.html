@@ -1,45 +1,49 @@
 {{ define "main" }}
-<h1>Recipes</h1>
+  <div class="page-wrapper recipe-list">
+    <h1 class="page-heading">Recipes</h1>
 
-<div class="recipe-list">
-  {{ range .Pages }}
-  <div class="recipe-list-item">
-    <a href="{{ .Permalink }}" class="recipe-list-item-card">
-      {{ if .Params.featuredImage }}
-      {{ $image := resources.Get .Params.featuredImage }}
-        <div style="background-image: url('{{ $image.RelPermalink }}');" class="image-container">
-      {{ else }}
-        <div style="background-image: url('https://placebear.com/300/300');" class="image-container">
-      {{ end }}
-        <div class="background">
-        </div>
-        </div>
+    <div class="grid-by-four">
+      {{ range .Pages }}
+        <div class="grid-item recipe-list-item">
+          <a href="{{ .Permalink }}" class="recipe-list-item-card">
+            {{ if .Params.featuredImage }}
+              {{ $image := resources.Get .Params.featuredImage }}
+              <div
+                style="background-image: url('{{ $image.RelPermalink }}');"
+                class="image-container"
+              ></div>
+            {{ else }}
+              <div
+                style="background-image: url('https://placebear.com/300/300');"
+                class="image-container"
+              ></div>
+            {{ end }}
 
-        <div class="item-body">
-          <h2 class="recipe-title">{{ .Title }}</h2>
-          {{ with .Params.description }}
-          <p class="description">{{ . | truncate 140 }}</p>
 
-          <hr>
+            <div class="item-body">
+              <h2 class="recipe-title">{{ .Title }}</h2>
+              {{ with .Params.description }}
+                <p class="description">{{ . | truncate 140 }}</p>
 
-          {{ end }}
-
-          <p class="ingredient-list">
-              <b>Ingredients:</b><br />
-              {{ $len := (len .Params.ingredients) }}
-              {{ range $index, $ingredient := .Params.ingredients }}
-              <span class="ingredient">
-                {{ $ingredient.name }}{{ if not (eq (add $index 1) $len) }},&nbsp;{{end}}
-              </span>
+                <hr />
               {{ end }}
-            </small>
-          </p>
+
+
+              <p class="ingredient-list">
+                <b>Ingredients:</b><br />
+                {{ $len := (len .Params.ingredients) }}
+                {{ range $index, $ingredient := .Params.ingredients }}
+                  <span class="ingredient">
+                    <!-- prettier-ignore -->
+                    {{ $ingredient.name }}{{ if not (eq (add $index 1) $len) }},&nbsp;{{ end }}
+                  </span>
+                {{ end }}
+              </p>
+            </div>
+            {{ partial "tags" . }}
+          </a>
         </div>
-        {{ partial "tags" . }}
-    </a>
-
+      {{ end }}
+    </div>
   </div>
-  {{ end }}
-</div>
-
 {{ end }}
