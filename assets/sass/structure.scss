@@ -1,6 +1,10 @@
 @import "variables";
 
 .page-wrapper {
+  .page-title {
+    margin-top: 0;
+  }
+
   .page-heading {
     margin-left: var(--spacing-4);
   }
