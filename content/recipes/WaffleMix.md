@@ -1,16 +1,28 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Waffle Mix"
+date: 2022-09-11T10:07:17-05:00
 description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas, exercitationem minima eligendi nostrum tempore eos porro quo delectus modi, itaque vel maxime, dicta quidem! Quod hic a fugit. Corrupti.
 
 ingredients:
-  - name: Ingredient1
-    amount: 600
-    unit: grams
+  - name: Egg
+    amount: 1
+    unit: large
 
-  - name: Ingredient2
-    amount: 600
-    unit: grams
+  - name: Milk
+    amount: 1
+    unit: cup
+
+  - name: Flour
+    amount: 1
+    unit: cup
+
+  - name: Baking powder
+    amount: 4.5
+    unit: tsp
+
+  - name: Vegetable oil
+    amount: .3
+    unit: cup
 
 servings: 0
 servingSize: 0
@@ -24,11 +36,11 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: ""
+featuredImage: images/recipes/WaffleMix/WaffleMix.jpg
 
 tags:
   - Meal Prep
 
 ---
 
-Recipe for {{ .Name }}
+Recipe for Waffle Mix
