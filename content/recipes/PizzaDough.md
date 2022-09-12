@@ -32,7 +32,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/PizzaDough/PizzaDough.jpg
+featuredImage: images/recipes/PizzaDough/PizzaDough.png
 
 tags:
   - Meal Prep
