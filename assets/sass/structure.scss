@@ -34,25 +34,3 @@
     }
   }
 }
-
-.grid-by-four {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  .grid-item {
-    flex: 1 0 100%;
-
-    @media (min-width: 768px) {
-      flex: 0 1 50%;
-    }
-
-    @media (min-width: 1200px) {
-      flex: 0 1 33.3333%;
-    }
-
-    @media (min-width: 1500px) {
-      flex: 0 1 25%;
-    }
-  }
-}

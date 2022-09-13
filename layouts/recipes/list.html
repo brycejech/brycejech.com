@@ -1,49 +1,5 @@
 {{ define "main" }}
-  <div class="page-wrapper recipe-list">
-    <h1 class="page-heading">Recipes</h1>
-
-    <div class="grid-by-four">
-      {{ range .Pages }}
-        <div class="grid-item recipe-list-item">
-          <a href="{{ .Permalink }}" class="recipe-list-item-card">
-            {{ if .Params.featuredImage }}
-              {{ $image := resources.Get .Params.featuredImage }}
-              <div
-                style="background-image: url('{{ $image.RelPermalink }}');"
-                class="image-container"
-              ></div>
-            {{ else }}
-              <div
-                style="background-image: url('https://placebear.com/300/300');"
-                class="image-container"
-              ></div>
-            {{ end }}
-
-
-            <div class="item-body">
-              <h2 class="recipe-title">{{ .Title }}</h2>
-              {{ with .Params.description }}
-                <p class="description">{{ . | truncate 140 }}</p>
-
-                <hr />
-              {{ end }}
-
-
-              <p class="ingredient-list">
-                <b>Ingredients:</b><br />
-                {{ $len := (len .Params.ingredients) }}
-                {{ range $index, $ingredient := .Params.ingredients }}
-                  <span class="ingredient">
-                    <!-- prettier-ignore -->
-                    {{ $ingredient.name }}{{ if not (eq (add $index 1) $len) }},&nbsp;{{ end }}
-                  </span>
-                {{ end }}
-              </p>
-            </div>
-            {{ partial "tags" . }}
-          </a>
-        </div>
-      {{ end }}
-    </div>
+  <div class="page-wrapper">
+    {{ partial "imageList" .Pages }}
   </div>
 {{ end }}

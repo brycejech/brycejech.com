@@ -1,0 +1,26 @@
+<div class="image-list">
+  {{ range . }}
+  <div class="image-list-item">
+    <a href="{{ .Permalink }}" class="image-list-item-card">
+      {{ if .Params.featuredImage }}
+        {{ $image := resources.Get .Params.featuredImage }}
+        <div
+          style="background-image: url('{{ $image.RelPermalink }}');"
+          class="image-container"
+        >
+      {{ else }}
+        <div
+          style="background-image: url('https://placebear.com/300/300');"
+          class="image-container"
+        >
+      {{ end }}
+        <div class="bg"></div>
+        <h2 class="item-title">{{ .Title }}</h2>
+        <p class="item-description">
+          {{ .Params.description | truncate 120 }}
+        </p>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>
