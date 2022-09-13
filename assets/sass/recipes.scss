@@ -90,6 +90,19 @@
     width: 100%;
   }
 
+  .ingredients {
+    ul {
+      list-style-type: "- ";
+    }
+  }
+
+  .directions {
+    ul,
+    ol {
+      list-style-type: decimal;
+    }
+  }
+
   hr {
     width: 65%;
     background-color: transparent;
