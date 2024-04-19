@@ -1,78 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Geius Stew | BryceJech.com</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genius Stew | BryceJech.com</title>
 
-  
-  
-  
-  <link rel="stylesheet" href="http://example.org/sass/main.css">
-</head>
-<body>
-  <nav class="site-nav">
     
-    <ul>
+    
+    
+    <link rel="stylesheet" href="http://example.org/style.css" />
+  </head>
+
+  <body>
+    <nav id="site-nav" class="site-nav">
+  <h2 class="nav-title">{ Bryce Jech }</h2>
+  
+  
+  <button id="menu-btn" class="menu-btn">
+    <img src="/svg/hamburger.svg" />
+  </button>
+
+  <div class="nav-container">
+    <button id="close-nav" class="close-nav">&times;</button>
+    <ul class="nav-items">
       <li>
         
-          <a href="/">HOME</a>
+        <a class="nav-item" href="/">HOME</a>
         
       </li>
       
-        <li>
-          
-            <a href="http://example.org/adventures/">ADVENTURES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item active" href="http://example.org/recipes/">
+          RECIPES
+        </a>
+        
+      </li>
       
-        <li>
-          
-            <a href="http://example.org/projects/">PROJECTS</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/adventures/">ADVENTURES</a>
+        
+      </li>
       
-        <li>
-          
-           <a href="http://example.org/recipes/" class="active">RECIPES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/projects/">PROJECTS</a>
+        
+      </li>
       
     </ul>
-  </nav>
-  <main>
-    
-<div class="page-content">
-  <aside class="section-menu">
+  </div>
+</nav>
+
+<script type="text/javascript">
+  const menuBtn = document.getElementById("menu-btn");
+  const closeBtn = document.getElementById("close-nav");
+  const nav = document.getElementById("site-nav");
+
+  menuBtn.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+  closeBtn.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+</script>
+    <main>
+      
+  <div class="page-wrapper has-sidebar">
+    <article class="page-content recipe">
+      <h1 class="page-title">Genius Stew</h1>
+      <h5>Posted: September 11, 2022</h5>
+
+      <p>
+        Formerly named Guiness stew, this is the greatest and last vegetable beef stew you&#39;ll ever need
+      </p>
+
+      
+      
+        <img class="featured-image" src="/images/recipes/GeniusStew/GeniusStew.jpg" alt="" />
+      
+
+
+      <hr />
+
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          
+            <li>
+              <span class="ingredient-amount">2</span>
+              <span class="ingredient-unit">lbs</span>
+              <span class="ingredient-name">Ground beef</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">16</span>
+              <span class="ingredient-unit">ozs</span>
+              <span class="ingredient-name">Bacon</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">1.5</span>
+              <span class="ingredient-unit">lbs</span>
+              <span class="ingredient-name">Red potato</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">250</span>
+              <span class="ingredient-unit">grams</span>
+              <span class="ingredient-name">Celery</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">200</span>
+              <span class="ingredient-unit">grams</span>
+              <span class="ingredient-name">Carrots</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">300</span>
+              <span class="ingredient-unit">grams</span>
+              <span class="ingredient-name">Onion</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">6</span>
+              <span class="ingredient-unit">ozs</span>
+              <span class="ingredient-name">Tomato paste</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">50</span>
+              <span class="ingredient-unit">ml</span>
+              <span class="ingredient-name">Lemon juice</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">50</span>
+              <span class="ingredient-unit">ml</span>
+              <span class="ingredient-name">Apple Cider Vinegar</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">1000</span>
+              <span class="ingredient-unit">ml</span>
+              <span class="ingredient-name">Water</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">2</span>
+              <span class="ingredient-unit">Tbsp</span>
+              <span class="ingredient-name">Beef bouillon paste</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">2</span>
+              <span class="ingredient-unit">Tbsp</span>
+              <span class="ingredient-name">Garlic bouillon paste</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">1.5</span>
+              <span class="ingredient-unit">bottles</span>
+              <span class="ingredient-name">Guiness extra stout</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">1.25</span>
+              <span class="ingredient-unit">cups</span>
+              <span class="ingredient-name">Flour (to thicken)</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">1</span>
+              <span class="ingredient-unit">can</span>
+              <span class="ingredient-name">LeSueur peas</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">2</span>
+              <span class="ingredient-unit">Tbsp</span>
+              <span class="ingredient-name">Worcestershire sauce</span>
+            </li>
+          
+        </ul>
+      </div>
+
+      <div class="directions">
+        <h3>Directions</h3>
+        <p>Recipe for GeniusStew</p>
+
+      </div>
+    </article>
+    <div class="sidebar">
+      <aside class="section-menu">
   <ul>
     
       <li>
-        <a href="http://example.org/recipes/breakfastparfait/">Breakfast Parfait</a>
+        <a href="http://example.org/recipes/wafflemix/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/WaffleMix/WaffleMix.jpg');"
+              ></div>
+            
+          
+          <span class="title">Waffle Mix</span>
+        </a>
       </li>
     
       <li>
-        <a href="http://example.org/recipes/carnitas/">Carnitas</a>
+        <a href="http://example.org/recipes/pizzadough/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/PizzaDough/PizzaDough.png');"
+              ></div>
+            
+          
+          <span class="title">Pizza Dough</span>
+        </a>
       </li>
     
       <li>
-        <a href="http://example.org/recipes/geniusstew/">Geius Stew</a>
+        <a href="http://example.org/recipes/garammasalapotatosoup/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/GaramMasalaPotatoSoup/GaramMasalaPotatoSoup.jpg');"
+              ></div>
+            
+          
+          <span class="title">Garam Masala Potato Soup</span>
+        </a>
       </li>
     
       <li>
-        <a href="http://example.org/recipes/quichemuffins/">Quiche Muffins</a>
+        <a href="http://example.org/recipes/whitequeso/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/WhiteQueso/WhiteQueso.png');"
+              ></div>
+            
+          
+          <span class="title">White Queso</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/creamytomatosoup/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/CreamyTomatoSoup/CreamyTomatoSoup.jpg');"
+              ></div>
+            
+          
+          <span class="title">Creamy Tomato Soup</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/creamypotatosoup/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/CreamyPotatoSoup/CreamyPotatoSoup.jpg');"
+              ></div>
+            
+          
+          <span class="title">Creamy Potato Soup</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/geniusstew/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/GeniusStew/GeniusStew.jpg');"
+              ></div>
+            
+          
+          <span class="title">Genius Stew</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/chili/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/Chili/Chili.jpg');"
+              ></div>
+            
+          
+          <span class="title">Chili</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/elote/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/Elote/Elote.jpg');"
+              ></div>
+            
+          
+          <span class="title">Elote</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/chimichurrisauce/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/ChimichurriSauce/ChimichurriSauce.jpg');"
+              ></div>
+            
+          
+          <span class="title">Chimichurri Sauce</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/beefstroganoff/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/BeefStroganoff/BeefStroganoff.jpg');"
+              ></div>
+            
+          
+          <span class="title">Easy Beef &#34;Stroganoff&#34;</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/quichemuffins/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/QuicheMuffins/QuicheMuffins.jpg');"
+              ></div>
+            
+          
+          <span class="title">Quiche Muffins</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/breakfastparfait/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/BreakfastParfait/BreakfastParfait.jpg');"
+              ></div>
+            
+          
+          <span class="title">Breakfast Parfait</span>
+        </a>
       </li>
     
   </ul>
 </aside>
 
-  <h1>Geius Stew</h1>
-  <p>This is the recipe for Genius Stew</p>
+    </div>
+  </div>
 
-
-</div>
-
-
-  </main>
-</body>
+    </main>
+  </body>
 </html>

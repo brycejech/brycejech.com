@@ -1,12 +1,129 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Heyo! on My New Hugo Site</title>
+    <title>Heyo! on Bryce Jech</title>
     <link>http://example.org/</link>
-    <description>Recent content in Heyo! on My New Hugo Site</description>
+    <description>Recent content in Heyo! on Bryce Jech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Sep 2022 10:07:17 -0500</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waffle Mix</title>
+      <link>http://example.org/recipes/wafflemix/</link>
+      <pubDate>Sun, 11 Sep 2022 10:07:17 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/wafflemix/</guid>
+      <description>Recipe for Waffle Mix</description>
+    </item>
+    
+    <item>
+      <title>Pizza Dough</title>
+      <link>http://example.org/recipes/pizzadough/</link>
+      <pubDate>Sun, 11 Sep 2022 09:56:57 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/pizzadough/</guid>
+      <description> Activate yeast in some of the water Mix dry ingredients Add yeast and water, mix &amp;amp; knead until &amp;ldquo;smooth&amp;rdquo; Rest dough for 5-10 minutes, slap and fold, repeat as needed Rise until doubled Punch down, form into 4 dough balls Rest, shape, fridge until ready to cook </description>
+    </item>
+    
+    <item>
+      <title>Garam Masala Potato Soup</title>
+      <link>http://example.org/recipes/garammasalapotatosoup/</link>
+      <pubDate>Sun, 11 Sep 2022 09:38:22 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/garammasalapotatosoup/</guid>
+      <description>Recipe for GaramMasalaPotatoSoup</description>
+    </item>
+    
+    <item>
+      <title>White Queso</title>
+      <link>http://example.org/recipes/whitequeso/</link>
+      <pubDate>Sun, 11 Sep 2022 09:32:36 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/whitequeso/</guid>
+      <description>Recipe for WhiteQueso</description>
+    </item>
+    
+    <item>
+      <title>Creamy Tomato Soup</title>
+      <link>http://example.org/recipes/creamytomatosoup/</link>
+      <pubDate>Sun, 11 Sep 2022 09:14:16 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/creamytomatosoup/</guid>
+      <description> Add olive oil, diced onion, salt and pepper to pot and cook until onions begin to clear Add diced garlic and oregano, cook until fragrant Add tomatoes and begin to crush Add whole basil leaves (leave on stem), simmer for 10-15 minutes stirring occaisionally Remove basil leaves (leave if desired) Add heavy cream and parmesean, stir until incorporated Add soup to blender, blend until smooth Continue to simmer until desired consistency (or cheat with flour), salt/pepper to taste </description>
+    </item>
+    
+    <item>
+      <title>Creamy Potato Soup</title>
+      <link>http://example.org/recipes/creamypotatosoup/</link>
+      <pubDate>Sun, 11 Sep 2022 08:48:20 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/creamypotatosoup/</guid>
+      <description>Recipe for CreamyPotatoSoup</description>
+    </item>
+    
+    <item>
+      <title>Genius Stew</title>
+      <link>http://example.org/recipes/geniusstew/</link>
+      <pubDate>Sun, 11 Sep 2022 08:21:14 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/geniusstew/</guid>
+      <description>Recipe for GeniusStew</description>
+    </item>
+    
+    <item>
+      <title>Chili</title>
+      <link>http://example.org/recipes/chili/</link>
+      <pubDate>Sun, 11 Sep 2022 08:02:48 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/chili/</guid>
+      <description>Recipe for Chili</description>
+    </item>
+    
+    <item>
+      <title>Elote</title>
+      <link>http://example.org/recipes/elote/</link>
+      <pubDate>Fri, 22 Jul 2022 09:26:13 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/elote/</guid>
+      <description>Recipe for Elote</description>
+    </item>
+    
+    <item>
+      <title>Chimichurri Sauce</title>
+      <link>http://example.org/recipes/chimichurrisauce/</link>
+      <pubDate>Fri, 22 Jul 2022 09:19:31 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/chimichurrisauce/</guid>
+      <description> Dice shallot, garlic, and jalapeños and lightly brown in a pan with olive oil Finely chop cilantro, parsely, and oregano and add to blender Measure and add red wine vinegar and olive oil to blender Add shallot, garlic, and jalapeños to blender Pulse blend until desired consistency reached </description>
+    </item>
+    
+    <item>
+      <title>Easy Beef &#34;Stroganoff&#34;</title>
+      <link>http://example.org/recipes/beefstroganoff/</link>
+      <pubDate>Fri, 22 Jul 2022 09:11:23 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/beefstroganoff/</guid>
+      <description>Recipe for Beef Stroganoff</description>
+    </item>
+    
+    <item>
+      <title>Quiche Muffins</title>
+      <link>http://example.org/recipes/quichemuffins/</link>
+      <pubDate>Fri, 15 Jul 2022 18:13:30 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/quichemuffins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breakfast Parfait</title>
+      <link>http://example.org/recipes/breakfastparfait/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/breakfastparfait/</guid>
+      <description>This is the recipe for breakfast parfait</description>
+    </item>
+    
     <item>
       <title>Orlando Trip</title>
       <link>http://example.org/adventures/orlando/</link>
@@ -16,34 +133,7 @@
       <description>The family took a trip to Orlando, FL for Wylie to compete in the International Geography Bee.
 We flew out on June 15th 2022 and returned on the 21st. This was the kids&amp;rsquo; first plane ride.
 Activities:
-Pirate Putting Escape room Universal Studios Icon Park Swing ride Zombie killing Tin roof </description>
-    </item>
-    
-    <item>
-      <title>Breakfast Parfait</title>
-      <link>http://example.org/recipes/breakfastparfait/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/recipes/breakfastparfait/</guid>
-      <description>This is the recipe for breakfast parfait</description>
-    </item>
-    
-    <item>
-      <title>Carnitas</title>
-      <link>http://example.org/recipes/carnitas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/recipes/carnitas/</guid>
-      <description>This is the recipe for crispy Carnitas</description>
-    </item>
-    
-    <item>
-      <title>Geius Stew</title>
-      <link>http://example.org/recipes/geniusstew/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/recipes/geniusstew/</guid>
-      <description>This is the recipe for Genius Stew</description>
+Pirate Putting Escape room Universal Studios Icon Park Swing ride Zombie killing Tin roof Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minus, distinctio a eius quod sed et dolore velit ut blanditiis quia consequuntur earum aperiam ipsa?</description>
     </item>
     
     <item>
@@ -53,15 +143,6 @@ Pirate Putting Escape room Universal Studios Icon Park Swing ride Zombie killing
       
       <guid>http://example.org/projects/kidgrid/</guid>
       <description>Project that died :(</description>
-    </item>
-    
-    <item>
-      <title>Quiche Muffins</title>
-      <link>http://example.org/recipes/quichemuffins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/recipes/quichemuffins/</guid>
-      <description>This is the recipe for Quiche Muffins</description>
     </item>
     
   </channel>

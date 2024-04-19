@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | BryceJech.com</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | BryceJech.com</title>
 
-  
-  
-  
-  <link rel="stylesheet" href="http://example.org/sass/main.css">
-</head>
-<body>
-  <nav class="site-nav">
     
-    <ul>
+    
+    
+    <link rel="stylesheet" href="http://example.org/style.css" />
+  </head>
+
+  <body>
+    <nav id="site-nav" class="site-nav">
+  <h2 class="nav-title">{ Bryce Jech }</h2>
+  
+  
+  <button id="menu-btn" class="menu-btn">
+    <img src="/svg/hamburger.svg" />
+  </button>
+
+  <div class="nav-container">
+    <button id="close-nav" class="close-nav">&times;</button>
+    <ul class="nav-items">
       <li>
         
-          <a href="/">HOME</a>
+        <a class="nav-item" href="/">HOME</a>
         
       </li>
       
-        <li>
-          
-            <a href="http://example.org/adventures/">ADVENTURES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/recipes/">RECIPES</a>
+        
+      </li>
       
-        <li>
-          
-           <a href="http://example.org/projects/" class="active">PROJECTS</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/adventures/">ADVENTURES</a>
+        
+      </li>
       
-        <li>
-          
-            <a href="http://example.org/recipes/">RECIPES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item active" href="http://example.org/projects/">
+          PROJECTS
+        </a>
+        
+      </li>
       
     </ul>
-  </nav>
-  <main>
-    
+  </div>
+</nav>
+
+<script type="text/javascript">
+  const menuBtn = document.getElementById("menu-btn");
+  const closeBtn = document.getElementById("close-nav");
+  const nav = document.getElementById("site-nav");
+
+  menuBtn.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+  closeBtn.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+</script>
+    <main>
+      
 <h1>This is the Projects list template</h1>
 
-  </main>
-</body>
+    </main>
+  </body>
 </html>

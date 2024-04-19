@@ -1,78 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiche Muffins | BryceJech.com</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiche Muffins | BryceJech.com</title>
 
-  
-  
-  
-  <link rel="stylesheet" href="http://example.org/sass/main.css">
-</head>
-<body>
-  <nav class="site-nav">
     
-    <ul>
+    
+    
+    <link rel="stylesheet" href="http://example.org/style.css" />
+  </head>
+
+  <body>
+    <nav id="site-nav" class="site-nav">
+  <h2 class="nav-title">{ Bryce Jech }</h2>
+  
+  
+  <button id="menu-btn" class="menu-btn">
+    <img src="/svg/hamburger.svg" />
+  </button>
+
+  <div class="nav-container">
+    <button id="close-nav" class="close-nav">&times;</button>
+    <ul class="nav-items">
       <li>
         
-          <a href="/">HOME</a>
+        <a class="nav-item" href="/">HOME</a>
         
       </li>
       
-        <li>
-          
-            <a href="http://example.org/adventures/">ADVENTURES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item active" href="http://example.org/recipes/">
+          RECIPES
+        </a>
+        
+      </li>
       
-        <li>
-          
-            <a href="http://example.org/projects/">PROJECTS</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/adventures/">ADVENTURES</a>
+        
+      </li>
       
-        <li>
-          
-           <a href="http://example.org/recipes/" class="active">RECIPES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/projects/">PROJECTS</a>
+        
+      </li>
       
     </ul>
-  </nav>
-  <main>
-    
-<div class="page-content">
-  <aside class="section-menu">
+  </div>
+</nav>
+
+<script type="text/javascript">
+  const menuBtn = document.getElementById("menu-btn");
+  const closeBtn = document.getElementById("close-nav");
+  const nav = document.getElementById("site-nav");
+
+  menuBtn.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+  closeBtn.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+</script>
+    <main>
+      
+  <div class="page-wrapper has-sidebar">
+    <article class="page-content recipe">
+      <h1 class="page-title">Quiche Muffins</h1>
+      <h5>Posted: July 15, 2022</h5>
+
+      <p>
+        Packable breakfast &#34;muffins&#34; using eggs and (optionally) cheese as a binder, these can be made at the beginning of the week and refrigerated for easily re-heatable breakfasts all week long.
+      </p>
+
+      
+      
+        <img class="featured-image" src="/images/recipes/QuicheMuffins/QuicheMuffins.jpg" alt="" />
+      
+
+
+      <hr />
+
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          
+            <li>
+              <span class="ingredient-amount">600</span>
+              <span class="ingredient-unit">grams</span>
+              <span class="ingredient-name">Ingredient 1</span>
+            </li>
+          
+            <li>
+              <span class="ingredient-amount">600</span>
+              <span class="ingredient-unit">grams</span>
+              <span class="ingredient-name">Ingredient 2</span>
+            </li>
+          
+        </ul>
+      </div>
+
+      <div class="directions">
+        <h3>Directions</h3>
+        
+      </div>
+    </article>
+    <div class="sidebar">
+      <aside class="section-menu">
   <ul>
     
       <li>
-        <a href="http://example.org/recipes/breakfastparfait/">Breakfast Parfait</a>
+        <a href="http://example.org/recipes/wafflemix/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/WaffleMix/WaffleMix.jpg');"
+              ></div>
+            
+          
+          <span class="title">Waffle Mix</span>
+        </a>
       </li>
     
       <li>
-        <a href="http://example.org/recipes/carnitas/">Carnitas</a>
+        <a href="http://example.org/recipes/pizzadough/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/PizzaDough/PizzaDough.png');"
+              ></div>
+            
+          
+          <span class="title">Pizza Dough</span>
+        </a>
       </li>
     
       <li>
-        <a href="http://example.org/recipes/geniusstew/">Geius Stew</a>
+        <a href="http://example.org/recipes/garammasalapotatosoup/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/GaramMasalaPotatoSoup/GaramMasalaPotatoSoup.jpg');"
+              ></div>
+            
+          
+          <span class="title">Garam Masala Potato Soup</span>
+        </a>
       </li>
     
       <li>
-        <a href="http://example.org/recipes/quichemuffins/">Quiche Muffins</a>
+        <a href="http://example.org/recipes/whitequeso/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/WhiteQueso/WhiteQueso.png');"
+              ></div>
+            
+          
+          <span class="title">White Queso</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/creamytomatosoup/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/CreamyTomatoSoup/CreamyTomatoSoup.jpg');"
+              ></div>
+            
+          
+          <span class="title">Creamy Tomato Soup</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/creamypotatosoup/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/CreamyPotatoSoup/CreamyPotatoSoup.jpg');"
+              ></div>
+            
+          
+          <span class="title">Creamy Potato Soup</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/geniusstew/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/GeniusStew/GeniusStew.jpg');"
+              ></div>
+            
+          
+          <span class="title">Genius Stew</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/chili/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/Chili/Chili.jpg');"
+              ></div>
+            
+          
+          <span class="title">Chili</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/elote/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/Elote/Elote.jpg');"
+              ></div>
+            
+          
+          <span class="title">Elote</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/chimichurrisauce/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/ChimichurriSauce/ChimichurriSauce.jpg');"
+              ></div>
+            
+          
+          <span class="title">Chimichurri Sauce</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/beefstroganoff/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/BeefStroganoff/BeefStroganoff.jpg');"
+              ></div>
+            
+          
+          <span class="title">Easy Beef &#34;Stroganoff&#34;</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/quichemuffins/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/QuicheMuffins/QuicheMuffins.jpg');"
+              ></div>
+            
+          
+          <span class="title">Quiche Muffins</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://example.org/recipes/breakfastparfait/">
+          
+            
+            
+              <div
+                class="page-image"
+                style="background-image: url('/images/recipes/BreakfastParfait/BreakfastParfait.jpg');"
+              ></div>
+            
+          
+          <span class="title">Breakfast Parfait</span>
+        </a>
       </li>
     
   </ul>
 </aside>
 
-  <h1>Quiche Muffins</h1>
-  <p>This is the recipe for Quiche Muffins</p>
+    </div>
+  </div>
 
-
-</div>
-
-
-  </main>
-</body>
+    </main>
+  </body>
 </html>

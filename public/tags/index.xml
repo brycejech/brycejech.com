@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on Bryce Jech</title>
     <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on Bryce Jech</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Sep 2022 10:07:17 -0500</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meal Prep</title>
+      <link>http://example.org/tags/meal-prep/</link>
+      <pubDate>Sun, 11 Sep 2022 10:07:17 -0500</pubDate>
+      
+      <guid>http://example.org/tags/meal-prep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mexican</title>
+      <link>http://example.org/tags/mexican/</link>
+      <pubDate>Fri, 22 Jul 2022 09:26:13 -0500</pubDate>
+      
+      <guid>http://example.org/tags/mexican/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sauces</title>
+      <link>http://example.org/tags/sauces/</link>
+      <pubDate>Fri, 22 Jul 2022 09:19:31 -0500</pubDate>
+      
+      <guid>http://example.org/tags/sauces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick Meals</title>
+      <link>http://example.org/tags/quick-meals/</link>
+      <pubDate>Fri, 22 Jul 2022 09:11:23 -0500</pubDate>
+      
+      <guid>http://example.org/tags/quick-meals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breakfast</title>
+      <link>http://example.org/tags/breakfast/</link>
+      <pubDate>Fri, 15 Jul 2022 18:13:30 -0500</pubDate>
+      
+      <guid>http://example.org/tags/breakfast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Protein</title>
+      <link>http://example.org/tags/high-protein/</link>
+      <pubDate>Fri, 15 Jul 2022 18:13:30 -0500</pubDate>
+      
+      <guid>http://example.org/tags/high-protein/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

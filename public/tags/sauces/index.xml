@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sauces on Bryce Jech</title>
+    <link>http://example.org/tags/sauces/</link>
+    <description>Recent content in Sauces on Bryce Jech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jul 2022 09:19:31 -0500</lastBuildDate><atom:link href="http://example.org/tags/sauces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chimichurri Sauce</title>
+      <link>http://example.org/recipes/chimichurrisauce/</link>
+      <pubDate>Fri, 22 Jul 2022 09:19:31 -0500</pubDate>
+      
+      <guid>http://example.org/recipes/chimichurrisauce/</guid>
+      <description> Dice shallot, garlic, and jalapeños and lightly brown in a pan with olive oil Finely chop cilantro, parsely, and oregano and add to blender Measure and add red wine vinegar and olive oil to blender Add shallot, garlic, and jalapeños to blender Pulse blend until desired consistency reached </description>
+    </item>
+    
+  </channel>
+</rss>

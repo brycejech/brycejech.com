@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adventures | BryceJech.com</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adventures | BryceJech.com</title>
 
-  
-  
-  
-  <link rel="stylesheet" href="http://example.org/sass/main.css">
-</head>
-<body>
-  <nav class="site-nav">
     
-    <ul>
+    
+    
+    <link rel="stylesheet" href="http://example.org/style.css" />
+  </head>
+
+  <body>
+    <nav id="site-nav" class="site-nav">
+  <h2 class="nav-title">{ Bryce Jech }</h2>
+  
+  
+  <button id="menu-btn" class="menu-btn">
+    <img src="/svg/hamburger.svg" />
+  </button>
+
+  <div class="nav-container">
+    <button id="close-nav" class="close-nav">&times;</button>
+    <ul class="nav-items">
       <li>
         
-          <a href="/">HOME</a>
+        <a class="nav-item" href="/">HOME</a>
         
       </li>
       
-        <li>
-          
-           <a href="http://example.org/adventures/" class="active">ADVENTURES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/recipes/">RECIPES</a>
+        
+      </li>
       
-        <li>
-          
-            <a href="http://example.org/projects/">PROJECTS</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item active" href="http://example.org/adventures/">
+          ADVENTURES
+        </a>
+        
+      </li>
       
-        <li>
-          
-            <a href="http://example.org/recipes/">RECIPES</a>
-          
-        </li>
+      <li>
+        
+        <a class="nav-item" href="http://example.org/projects/">PROJECTS</a>
+        
+      </li>
       
     </ul>
-  </nav>
-  <main>
-    
+  </div>
+</nav>
+
+<script type="text/javascript">
+  const menuBtn = document.getElementById("menu-btn");
+  const closeBtn = document.getElementById("close-nav");
+  const nav = document.getElementById("site-nav");
+
+  menuBtn.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+  closeBtn.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+</script>
+    <main>
+      
   <h1>This is the Adventures list template</h1>
 
   <nav>
@@ -53,13 +78,13 @@
           <p>The family took a trip to Orlando, FL for Wylie to compete in the International Geography Bee.
 We flew out on June 15th 2022 and returned on the 21st. This was the kids&rsquo; first plane ride.
 Activities:
-Pirate Putting Escape room Universal Studios Icon Park Swing ride Zombie killing Tin roof </p>
+Pirate Putting Escape room Universal Studios Icon Park Swing ride Zombie killing Tin roof Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minus, distinctio a eius quod sed et dolore velit ut blanditiis quia consequuntur earum aperiam ipsa?</p>
         </li>
       
     </ul>
   </nav>
 
 
-  </main>
-</body>
+    </main>
+  </body>
 </html>
