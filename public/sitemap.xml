@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-09-11T10:07:17-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/meal-prep/</loc>
+    <loc>http://localhost:1313/tags/meal-prep/</loc>
     <lastmod>2022-09-11T10:07:17-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/</loc>
+    <loc>http://localhost:1313/recipes/</loc>
     <lastmod>2022-09-11T10:07:17-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-09-11T10:07:17-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/wafflemix/</loc>
+    <loc>http://localhost:1313/recipes/wafflemix/</loc>
     <lastmod>2022-09-11T10:07:17-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/pizzadough/</loc>
+    <loc>http://localhost:1313/recipes/pizzadough/</loc>
     <lastmod>2022-09-11T09:56:57-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/garammasalapotatosoup/</loc>
+    <loc>http://localhost:1313/recipes/garammasalapotatosoup/</loc>
     <lastmod>2022-09-11T09:38:22-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/whitequeso/</loc>
+    <loc>http://localhost:1313/recipes/whitequeso/</loc>
     <lastmod>2022-09-11T09:32:36-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/creamytomatosoup/</loc>
+    <loc>http://localhost:1313/recipes/creamytomatosoup/</loc>
     <lastmod>2022-09-11T09:14:16-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/creamypotatosoup/</loc>
+    <loc>http://localhost:1313/recipes/creamypotatosoup/</loc>
     <lastmod>2022-09-11T08:48:20-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/geniusstew/</loc>
+    <loc>http://localhost:1313/recipes/geniusstew/</loc>
     <lastmod>2022-09-11T08:21:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/chili/</loc>
+    <loc>http://localhost:1313/recipes/chili/</loc>
     <lastmod>2022-09-11T08:02:48-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/elote/</loc>
+    <loc>http://localhost:1313/recipes/elote/</loc>
     <lastmod>2022-07-22T09:26:13-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/mexican/</loc>
+    <loc>http://localhost:1313/tags/mexican/</loc>
     <lastmod>2022-07-22T09:26:13-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/chimichurrisauce/</loc>
+    <loc>http://localhost:1313/recipes/chimichurrisauce/</loc>
     <lastmod>2022-07-22T09:19:31-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/sauces/</loc>
+    <loc>http://localhost:1313/tags/sauces/</loc>
     <lastmod>2022-07-22T09:19:31-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/beefstroganoff/</loc>
+    <loc>http://localhost:1313/recipes/beefstroganoff/</loc>
     <lastmod>2022-07-22T09:11:23-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/quick-meals/</loc>
+    <loc>http://localhost:1313/tags/quick-meals/</loc>
     <lastmod>2022-07-22T09:11:23-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/breakfast/</loc>
+    <loc>http://localhost:1313/tags/breakfast/</loc>
     <lastmod>2022-07-15T18:13:30-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/high-protein/</loc>
+    <loc>http://localhost:1313/tags/high-protein/</loc>
     <lastmod>2022-07-15T18:13:30-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/quichemuffins/</loc>
+    <loc>http://localhost:1313/recipes/quichemuffins/</loc>
     <lastmod>2022-07-15T18:13:30-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/recipes/breakfastparfait/</loc>
+    <loc>http://localhost:1313/recipes/breakfastparfait/</loc>
     <lastmod>2022-07-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/adventures/</loc>
+    <loc>http://localhost:1313/adventures/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/adventures/orlando/</loc>
+    <loc>http://localhost:1313/adventures/orlando/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://example.org/projects/kidgrid/</loc>
+    <loc>http://localhost:1313/projects/kidgrid/</loc>
   </url><url>
-    <loc>http://example.org/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
   </url>
 </urlset>

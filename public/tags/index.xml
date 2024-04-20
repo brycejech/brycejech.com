@@ -2,64 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bryce Jech</title>
-    <link>http://example.org/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Bryce Jech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Sep 2022 10:07:17 -0500</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Sep 2022 10:07:17 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meal Prep</title>
-      <link>http://example.org/tags/meal-prep/</link>
-      <pubDate>Sun, 11 Sep 2022 10:07:17 -0500</pubDate>
-      
-      <guid>http://example.org/tags/meal-prep/</guid>
+      <link>http://localhost:1313/tags/meal-prep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/meal-prep/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mexican</title>
-      <link>http://example.org/tags/mexican/</link>
-      <pubDate>Fri, 22 Jul 2022 09:26:13 -0500</pubDate>
-      
-      <guid>http://example.org/tags/mexican/</guid>
+      <link>http://localhost:1313/tags/mexican/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mexican/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Sauces</title>
-      <link>http://example.org/tags/sauces/</link>
-      <pubDate>Fri, 22 Jul 2022 09:19:31 -0500</pubDate>
-      
-      <guid>http://example.org/tags/sauces/</guid>
+      <link>http://localhost:1313/tags/sauces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sauces/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Quick Meals</title>
-      <link>http://example.org/tags/quick-meals/</link>
-      <pubDate>Fri, 22 Jul 2022 09:11:23 -0500</pubDate>
-      
-      <guid>http://example.org/tags/quick-meals/</guid>
+      <link>http://localhost:1313/tags/quick-meals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quick-meals/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Breakfast</title>
-      <link>http://example.org/tags/breakfast/</link>
-      <pubDate>Fri, 15 Jul 2022 18:13:30 -0500</pubDate>
-      
-      <guid>http://example.org/tags/breakfast/</guid>
+      <link>http://localhost:1313/tags/breakfast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/breakfast/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>High Protein</title>
-      <link>http://example.org/tags/high-protein/</link>
-      <pubDate>Fri, 15 Jul 2022 18:13:30 -0500</pubDate>
-      
-      <guid>http://example.org/tags/high-protein/</guid>
+      <link>http://localhost:1313/tags/high-protein/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/high-protein/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

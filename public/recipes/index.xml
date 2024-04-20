@@ -2,127 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recipes on Bryce Jech</title>
-    <link>http://example.org/recipes/</link>
+    <link>http://localhost:1313/recipes/</link>
     <description>Recent content in Recipes on Bryce Jech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Sep 2022 10:07:17 -0500</lastBuildDate><atom:link href="http://example.org/recipes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Sep 2022 10:07:17 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/recipes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Waffle Mix</title>
-      <link>http://example.org/recipes/wafflemix/</link>
+      <link>http://localhost:1313/recipes/wafflemix/</link>
       <pubDate>Sun, 11 Sep 2022 10:07:17 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/wafflemix/</guid>
+      <guid>http://localhost:1313/recipes/wafflemix/</guid>
       <description>Recipe for Waffle Mix</description>
     </item>
-    
     <item>
       <title>Pizza Dough</title>
-      <link>http://example.org/recipes/pizzadough/</link>
+      <link>http://localhost:1313/recipes/pizzadough/</link>
       <pubDate>Sun, 11 Sep 2022 09:56:57 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/pizzadough/</guid>
+      <guid>http://localhost:1313/recipes/pizzadough/</guid>
       <description> Activate yeast in some of the water Mix dry ingredients Add yeast and water, mix &amp;amp; knead until &amp;ldquo;smooth&amp;rdquo; Rest dough for 5-10 minutes, slap and fold, repeat as needed Rise until doubled Punch down, form into 4 dough balls Rest, shape, fridge until ready to cook </description>
     </item>
-    
     <item>
       <title>Garam Masala Potato Soup</title>
-      <link>http://example.org/recipes/garammasalapotatosoup/</link>
+      <link>http://localhost:1313/recipes/garammasalapotatosoup/</link>
       <pubDate>Sun, 11 Sep 2022 09:38:22 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/garammasalapotatosoup/</guid>
+      <guid>http://localhost:1313/recipes/garammasalapotatosoup/</guid>
       <description>Recipe for GaramMasalaPotatoSoup</description>
     </item>
-    
     <item>
       <title>White Queso</title>
-      <link>http://example.org/recipes/whitequeso/</link>
+      <link>http://localhost:1313/recipes/whitequeso/</link>
       <pubDate>Sun, 11 Sep 2022 09:32:36 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/whitequeso/</guid>
+      <guid>http://localhost:1313/recipes/whitequeso/</guid>
       <description>Recipe for WhiteQueso</description>
     </item>
-    
     <item>
       <title>Creamy Tomato Soup</title>
-      <link>http://example.org/recipes/creamytomatosoup/</link>
+      <link>http://localhost:1313/recipes/creamytomatosoup/</link>
       <pubDate>Sun, 11 Sep 2022 09:14:16 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/creamytomatosoup/</guid>
+      <guid>http://localhost:1313/recipes/creamytomatosoup/</guid>
       <description> Add olive oil, diced onion, salt and pepper to pot and cook until onions begin to clear Add diced garlic and oregano, cook until fragrant Add tomatoes and begin to crush Add whole basil leaves (leave on stem), simmer for 10-15 minutes stirring occaisionally Remove basil leaves (leave if desired) Add heavy cream and parmesean, stir until incorporated Add soup to blender, blend until smooth Continue to simmer until desired consistency (or cheat with flour), salt/pepper to taste </description>
     </item>
-    
     <item>
       <title>Creamy Potato Soup</title>
-      <link>http://example.org/recipes/creamypotatosoup/</link>
+      <link>http://localhost:1313/recipes/creamypotatosoup/</link>
       <pubDate>Sun, 11 Sep 2022 08:48:20 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/creamypotatosoup/</guid>
+      <guid>http://localhost:1313/recipes/creamypotatosoup/</guid>
       <description>Recipe for CreamyPotatoSoup</description>
     </item>
-    
     <item>
       <title>Genius Stew</title>
-      <link>http://example.org/recipes/geniusstew/</link>
+      <link>http://localhost:1313/recipes/geniusstew/</link>
       <pubDate>Sun, 11 Sep 2022 08:21:14 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/geniusstew/</guid>
+      <guid>http://localhost:1313/recipes/geniusstew/</guid>
       <description>Recipe for GeniusStew</description>
     </item>
-    
     <item>
       <title>Chili</title>
-      <link>http://example.org/recipes/chili/</link>
+      <link>http://localhost:1313/recipes/chili/</link>
       <pubDate>Sun, 11 Sep 2022 08:02:48 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/chili/</guid>
+      <guid>http://localhost:1313/recipes/chili/</guid>
       <description>Recipe for Chili</description>
     </item>
-    
     <item>
       <title>Elote</title>
-      <link>http://example.org/recipes/elote/</link>
+      <link>http://localhost:1313/recipes/elote/</link>
       <pubDate>Fri, 22 Jul 2022 09:26:13 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/elote/</guid>
+      <guid>http://localhost:1313/recipes/elote/</guid>
       <description>Recipe for Elote</description>
     </item>
-    
     <item>
       <title>Chimichurri Sauce</title>
-      <link>http://example.org/recipes/chimichurrisauce/</link>
+      <link>http://localhost:1313/recipes/chimichurrisauce/</link>
       <pubDate>Fri, 22 Jul 2022 09:19:31 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/chimichurrisauce/</guid>
+      <guid>http://localhost:1313/recipes/chimichurrisauce/</guid>
       <description> Dice shallot, garlic, and jalapeños and lightly brown in a pan with olive oil Finely chop cilantro, parsely, and oregano and add to blender Measure and add red wine vinegar and olive oil to blender Add shallot, garlic, and jalapeños to blender Pulse blend until desired consistency reached </description>
     </item>
-    
     <item>
       <title>Easy Beef &#34;Stroganoff&#34;</title>
-      <link>http://example.org/recipes/beefstroganoff/</link>
+      <link>http://localhost:1313/recipes/beefstroganoff/</link>
       <pubDate>Fri, 22 Jul 2022 09:11:23 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/beefstroganoff/</guid>
+      <guid>http://localhost:1313/recipes/beefstroganoff/</guid>
       <description>Recipe for Beef Stroganoff</description>
     </item>
-    
     <item>
       <title>Quiche Muffins</title>
-      <link>http://example.org/recipes/quichemuffins/</link>
+      <link>http://localhost:1313/recipes/quichemuffins/</link>
       <pubDate>Fri, 15 Jul 2022 18:13:30 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/quichemuffins/</guid>
+      <guid>http://localhost:1313/recipes/quichemuffins/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Breakfast Parfait</title>
-      <link>http://example.org/recipes/breakfastparfait/</link>
+      <link>http://localhost:1313/recipes/breakfastparfait/</link>
       <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/recipes/breakfastparfait/</guid>
+      <guid>http://localhost:1313/recipes/breakfastparfait/</guid>
       <description>This is the recipe for breakfast parfait</description>
     </item>
-    
   </channel>
 </rss>

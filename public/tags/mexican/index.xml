@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mexican on Bryce Jech</title>
-    <link>http://example.org/tags/mexican/</link>
+    <link>http://localhost:1313/tags/mexican/</link>
     <description>Recent content in Mexican on Bryce Jech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jul 2022 09:26:13 -0500</lastBuildDate><atom:link href="http://example.org/tags/mexican/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jul 2022 09:26:13 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mexican/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elote</title>
-      <link>http://example.org/recipes/elote/</link>
+      <link>http://localhost:1313/recipes/elote/</link>
       <pubDate>Fri, 22 Jul 2022 09:26:13 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/elote/</guid>
+      <guid>http://localhost:1313/recipes/elote/</guid>
       <description>Recipe for Elote</description>
     </item>
-    
   </channel>
 </rss>

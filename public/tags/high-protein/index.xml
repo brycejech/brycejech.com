@@ -2,28 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>High Protein on Bryce Jech</title>
-    <link>http://example.org/tags/high-protein/</link>
+    <link>http://localhost:1313/tags/high-protein/</link>
     <description>Recent content in High Protein on Bryce Jech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jul 2022 18:13:30 -0500</lastBuildDate><atom:link href="http://example.org/tags/high-protein/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jul 2022 18:13:30 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/high-protein/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quiche Muffins</title>
-      <link>http://example.org/recipes/quichemuffins/</link>
+      <link>http://localhost:1313/recipes/quichemuffins/</link>
       <pubDate>Fri, 15 Jul 2022 18:13:30 -0500</pubDate>
-      
-      <guid>http://example.org/recipes/quichemuffins/</guid>
+      <guid>http://localhost:1313/recipes/quichemuffins/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Breakfast Parfait</title>
-      <link>http://example.org/recipes/breakfastparfait/</link>
+      <link>http://localhost:1313/recipes/breakfastparfait/</link>
       <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/recipes/breakfastparfait/</guid>
+      <guid>http://localhost:1313/recipes/breakfastparfait/</guid>
       <description>This is the recipe for breakfast parfait</description>
     </item>
-    
   </channel>
 </rss>
