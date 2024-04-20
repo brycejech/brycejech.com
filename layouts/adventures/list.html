@@ -1,15 +1,5 @@
 {{ define "main" }}
-  <h1>This is the Adventures list template</h1>
-
-  <nav>
-    <ul>
-      {{ range .Pages }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Title }} {{ .Date | dateFormat ":date_long" }}</a>
-          <p>{{ .Summary }}</p>
-        </li>
-      {{ end }}
-    </ul>
-  </nav>
-
+  <div class="page-wrapper">
+    {{ partial "imageList" .Pages }}
+  </div>
 {{ end }}

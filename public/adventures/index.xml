@@ -6,14 +6,70 @@
     <description>Recent content in Adventures on Bryce Jech</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/adventures/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Orlando Trip</title>
-      <link>http://localhost:1313/adventures/orlando/</link>
-      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/adventures/orlando/</guid>
-      <description>The family took a trip to Orlando, FL for Wylie to compete in the International Geography Bee.&#xA;We flew out on June 15th 2022 and returned on the 21st. This was the kids&amp;rsquo; first plane ride.&#xA;Activities:&#xA;Pirate Putting Escape room Universal Studios Icon Park Swing ride Zombie killing Tin roof Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minus, distinctio a eius quod sed et dolore velit ut blanditiis quia consequuntur earum aperiam ipsa?</description>
+      <title>Chicago - Band Trip</title>
+      <link>http://localhost:1313/adventures/chicago/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/chicago/</guid>
+      <description>Chicago trip with the band</description>
+    </item>
+    <item>
+      <title>Las Vegas - AWS re:Invent</title>
+      <link>http://localhost:1313/adventures/las-vegas/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/las-vegas/</guid>
+      <description>Trip to Las Vegas for AWS re:Invent</description>
+    </item>
+    <item>
+      <title>Denver - Greta Van Fleet</title>
+      <link>http://localhost:1313/adventures/denver/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/denver/</guid>
+      <description>Family trip to see Greta Van Fleet in Denver, CO</description>
+    </item>
+    <item>
+      <title>OKC - Mom and Mark Wedding</title>
+      <link>http://localhost:1313/adventures/mom-wedding/</link>
+      <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/mom-wedding/</guid>
+      <description>After like a billion years, they&amp;rsquo;ve finally tied the knot</description>
+    </item>
+    <item>
+      <title>OKC - Greta Van Fleet</title>
+      <link>http://localhost:1313/adventures/okc-greta/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/okc-greta/</guid>
+      <description>Greta Van Fleet finally came to Oklahoma City</description>
+    </item>
+    <item>
+      <title>Medicine Park - Glamping</title>
+      <link>http://localhost:1313/adventures/medicine-park/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/medicine-park/</guid>
+      <description>Family trip to Medicine Park, Oklahoma</description>
+    </item>
+    <item>
+      <title>Dallas - Sabaton</title>
+      <link>http://localhost:1313/adventures/sabaton/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/sabaton/</guid>
+      <description>We take Wylie and best bud, Vann, to see the Sabaton &amp;ldquo;Tour to End All Tours&amp;rdquo; show in Dallas</description>
+    </item>
+    <item>
+      <title>Kingfisher - Chile Roasting</title>
+      <link>http://localhost:1313/adventures/chile-roasting/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/chile-roasting/</guid>
+      <description>Chile roasting, chile roasting oy! oy! oy!</description>
+    </item>
+    <item>
+      <title>OKC - Strongman Competition</title>
+      <link>http://localhost:1313/adventures/strongman/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/strongman/</guid>
+      <description>Star Wars themed strongman competition in OKC at Brewhouse Barbell</description>
     </item>
   </channel>
 </rss>
