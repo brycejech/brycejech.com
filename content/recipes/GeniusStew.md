@@ -84,7 +84,6 @@ featuredImage: images/recipes/GeniusStew/GeniusStew.jpg
 
 tags:
   - Meal Prep
-
 ---
 
 Recipe for GeniusStew

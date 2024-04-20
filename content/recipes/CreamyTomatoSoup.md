@@ -60,7 +60,6 @@ featuredImage: images/recipes/CreamyTomatoSoup/CreamyTomatoSoup.jpg
 
 tags:
   - Meal Prep
-
 ---
 
 - Add olive oil, diced onion, salt and pepper to pot and cook until onions begin to clear

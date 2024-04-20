@@ -34,7 +34,7 @@ totalTime: 25 minutes
 
 featuredImage: images/recipes/BreakfastParfait/BreakfastParfait.jpg
 
-tags: 
+tags:
   - Breakfast
   - Meal Prep
   - High Protein

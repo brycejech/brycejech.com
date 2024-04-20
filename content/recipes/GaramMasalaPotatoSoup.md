@@ -84,7 +84,6 @@ featuredImage: images/recipes/GaramMasalaPotatoSoup/GaramMasalaPotatoSoup.jpg
 
 tags:
   - Meal Prep
-
 ---
 
 Recipe for GaramMasalaPotatoSoup

@@ -6,15 +6,15 @@ description: A spicy Argentinian herb sauce or marinade often served with grille
 ingredients:
   - name: Shallot
     amount: 1
-    unit: 
+    unit:
 
   - name: Jalapeño
     amount: 3
-    unit: 
+    unit:
 
   - name: Garlic Clove
     amount: 4
-    unit: 
+    unit:
 
   - name: Red Wine Vinegar
     amount: 1/2
@@ -52,7 +52,6 @@ featuredImage: images/recipes/ChimichurriSauce/ChimichurriSauce.jpg
 
 tags:
   - Sauces
-
 ---
 
 - Dice shallot, garlic, and jalapeños and lightly brown in a pan with olive oil
