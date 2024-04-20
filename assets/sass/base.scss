@@ -31,6 +31,10 @@ main {
   padding-bottom: $nav-height;
 
   @media (min-width: 992px) {
-    padding: $top-padding 0 2rem calc(#{$nav-width});
+    // padding: $top-padding 0 2rem calc(#{$nav-width});
+    position: relative;
+    max-width: calc(100vw - #{$nav-width});
+    left: $nav-width;
+    padding: 0;
   }
 }

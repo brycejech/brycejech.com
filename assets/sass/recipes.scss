@@ -1,12 +1,12 @@
 @import "variables";
 
 .recipe-list {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
-  position: relative;
-  padding: 0 var(--spacing-4);
+  padding: var(--spacing-4);
 
   .recipe-list-item {
     padding: var(--spacing-4);
