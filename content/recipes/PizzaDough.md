@@ -36,7 +36,6 @@ featuredImage: images/recipes/PizzaDough/PizzaDough.png
 
 tags:
   - Meal Prep
-
 ---
 
 - Activate yeast in some of the water

@@ -1,7 +1,7 @@
 ---
 title: Easy Beef "Stroganoff"
 date: 2022-07-22T09:11:23-05:00
-description: Traditionally made with braised or seared cuts of meat, this alternative to a more typical beef stroganoff recipe makes for a  quick, easy, and delicious weeknight meal. 
+description: Traditionally made with braised or seared cuts of meat, this alternative to a more typical beef stroganoff recipe makes for a  quick, easy, and delicious weeknight meal.
 
 ingredients:
   - name: Reames Egg Noodles
@@ -19,7 +19,7 @@ ingredients:
   - name: Cream of Mushroom Soup
     amount: 10.5
     unit: ounces
-  
+
   - name: Sour cream
     amount: 16
     unit: ounces
@@ -40,7 +40,6 @@ featuredImage: images/recipes/BeefStroganoff/BeefStroganoff.jpg
 
 tags:
   - Quick Meals
-
 ---
 
 Recipe for Beef Stroganoff

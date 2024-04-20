@@ -52,7 +52,6 @@ featuredImage: images/recipes/Elote/Elote.jpg
 
 tags:
   - Mexican
-
 ---
 
 Recipe for Elote

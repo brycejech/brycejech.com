@@ -56,7 +56,6 @@ ingredients:
     amount: 1.5
     unit: cups
 
-
 servings: 0
 servingSize: 0
 servingSizeUnits: grams
@@ -73,7 +72,6 @@ featuredImage: images/recipes/CreamyPotatoSoup/CreamyPotatoSoup.jpg
 
 tags:
   - Meal Prep
-
 ---
 
 Recipe for CreamyPotatoSoup

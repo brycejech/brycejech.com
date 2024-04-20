@@ -48,7 +48,6 @@ featuredImage: images/recipes/WhiteQueso/WhiteQueso.png
 
 tags:
   - Meal Prep
-
 ---
 
 Recipe for WhiteQueso

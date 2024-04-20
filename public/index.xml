@@ -51,6 +51,13 @@
       <description>Family trip to Medicine Park, Oklahoma</description>
     </item>
     <item>
+      <title>Dallas - Sabaton</title>
+      <link>http://localhost:1313/adventures/sabaton/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/sabaton/</guid>
+      <description>We take Wylie and best bud, Vann, to see the Sabaton &amp;ldquo;Tour to End All Tours&amp;rdquo; show in Dallas</description>
+    </item>
+    <item>
       <title>Waffle Mix</title>
       <link>http://localhost:1313/recipes/wafflemix/</link>
       <pubDate>Sun, 11 Sep 2022 10:07:17 -0500</pubDate>
@@ -147,6 +154,13 @@
       <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipes/breakfastparfait/</guid>
       <description>This is the recipe for breakfast parfait</description>
+    </item>
+    <item>
+      <title>OKC - Strongman Competition</title>
+      <link>http://localhost:1313/adventures/strongman/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures/strongman/</guid>
+      <description>Star Wars themed strongman competition in OKC at Brewhouse Barbell</description>
     </item>
     <item>
       <title>KidGrid</title>

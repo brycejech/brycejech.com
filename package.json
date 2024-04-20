@@ -2,11 +2,14 @@
   "name": "brycejech.com",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Bryce Jech <bryce@brycejech.com>",
-  "license": "MIT",
+  "scripts": {
+    "format": "prettier content layouts --write"
+  },
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^2.7.1",
-    "prettier-plugin-go-template": "^0.0.13"
-  }
+    "prettier": "^3.2.5",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "author": "Bryce Jech <bryce@brycejech.com>",
+  "license": "MIT"
 }

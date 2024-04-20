@@ -40,7 +40,6 @@ featuredImage: images/recipes/WaffleMix/WaffleMix.jpg
 
 tags:
   - Meal Prep
-
 ---
 
 Recipe for Waffle Mix

@@ -64,7 +64,6 @@ featuredImage: images/recipes/Chili/Chili.jpg
 
 tags:
   - Meal Prep
-
 ---
 
 Recipe for Chili
