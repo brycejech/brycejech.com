@@ -1,41 +1,60 @@
 {{ define "main" }}
-  <div class="page-wrapper has-sidebar">
+  {{ $image := resources.Get .Params.featuredImage }}
+
+
+  <div class="page-wrapper">
     <article class="page-content recipe">
-      <h1 class="page-title">{{ .Title }}</h1>
-      <h5>Posted: {{ .Date | dateFormat ":date_long" }}</h5>
+      <div class="card">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <h4 class="recipe-date">
+          <em>{{ .Date | dateFormat ":date_long" }}</em>
+        </h4>
 
-      <p>
-        {{ .Params.description }}
-      </p>
-
-      {{ $image := resources.Get .Params.featuredImage }}
-      {{ with $image }}
-        <img class="featured-image" src="{{ .RelPermalink }}" alt="" />
-      {{ end }}
-
+        {{ with $image }}
+          <img class="featured-image" src="{{ .RelPermalink }}" alt="" />
+        {{ end }}
+        <p>
+          {{ .Params.description }}
+        </p>
+      </div>
 
       <hr />
 
-      <div class="ingredients">
-        <h3>Ingredients</h3>
-        <ul>
-          {{ range .Params.ingredients }}
-            <li>
-              <span class="ingredient-amount">{{ .amount }}</span>
-              <span class="ingredient-unit">{{ .unit }}</span>
-              <span class="ingredient-name">{{ .name }}</span>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
+      <div class="directions-container">
+        <div class="ingredients">
+          <div class="card">
+            <h2>Ingredients</h2>
 
-      <div class="directions">
-        <h3>Directions</h3>
-        {{ .Content }}
+            <div class="stripe-list ingredient-list">
+              {{ range .Params.ingredients }}
+                <div class="stripe-item ingredient">
+                  <span class="ingredient-amount">{{ .amount }}</span>
+                  <span class="ingredient-unit">{{ .unit }}</span>
+                  <span class="ingredient-name">{{ .name }}</span>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+
+        <div class="directions">
+          <div class="card">
+            <h2>Directions</h2>
+            <div class="stripe-list direction-list">
+              {{ if isset .Params "directions" }}
+                {{ range $idx, $item := .Params.directions }}
+                  <div class="stripe-item direction">
+                    <h4 class="idx">{{ $idx }}.</h4>
+                    <div class="content">
+                      {{ $item }}
+                    </div>
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
     </article>
-    <div class="sidebar">
-      {{ partial "sectionMenu" .Parent }}
-    </div>
   </div>
 {{ end }}

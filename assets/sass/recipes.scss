@@ -1,23 +1,89 @@
 @import "variables";
 
 .recipe {
-  .section-menu {
-    display: none;
+  --spacing: var(--spacing-8);
+  --item-border-color: #{rgba(#000, 0.2)};
+  --item-bg-color: #{rgba(#f7f7f7, 0.5)};
+
+  @media (min-width: 992px) {
+    max-width: 85%;
+
+    padding: var(--spacing) 0;
   }
+
+  .page-title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .recipe-date {
+    color: rgba(#000, 0.85);
+    font-weight: 300;
+    margin: 0 0 calc(var(--spacing) / 2);
+  }
+
+  .card {
+    border-radius: var(--spacing-1);
+    padding: calc(var(--spacing) / 2);
+  }
+
   .featured-image {
     width: 100%;
   }
 
-  .ingredients {
-    ul {
-      list-style-type: "- ";
+  .stripe-list {
+    .stripe-item {
+      border-bottom: 1px solid var(--item-border-color);
+      &:nth-child(even) {
+        background-color: var(--item-bg-color);
+      }
+      &:first-child {
+        border-top: 1px solid var(--item-border-color);
+      }
     }
   }
 
-  .directions {
-    ul,
-    ol {
-      list-style-type: decimal;
+  .directions-container {
+    width: 100%;
+    gap: var(--spacing);
+    display: flex;
+    flex-direction: row;
+
+    h2 {
+      text-decoration: underline;
+    }
+    .ingredients {
+      flex-basis: 40%;
+
+      .ingredient-list {
+        display: flex;
+        flex-direction: column;
+
+        .ingredient {
+          padding: var(--spacing-3) var(--spacing-2);
+        }
+      }
+    }
+
+    .directions {
+      flex-basis: 60%;
+
+      .direction-list {
+        display: flex;
+        flex-direction: column;
+
+        .direction {
+          display: flex;
+          padding: var(--spacing) 0;
+
+          .idx {
+            margin: 0;
+            padding: 0 1rem;
+
+            font-weight: 300;
+            font-size: 1.6rem;
+          }
+        }
+      }
     }
   }
 
@@ -26,20 +92,6 @@
     background-color: transparent;
     border: none;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    margin: 3rem auto;
-  }
-
-  @media (min-width: 992px) {
-    flex: 0 1 60%;
-    padding: 2rem 1rem;
-  }
-}
-
-.sidebar {
-  display: none;
-
-  @media (min-width: 992px) {
-    display: inline-block;
-    flex: 0 1 300px;
+    margin: calc(var(--spacing) * 2) auto;
   }
 }

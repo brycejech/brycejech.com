@@ -1,7 +1,7 @@
 ---
-title: Garam Masala Potato Soup
+title: Garam Masala Potato Stew
 date: 2022-09-11T09:38:22-05:00
-description: Spicy garam masala soup made with sweet potatoes
+description: Spicy garam masala stew made with sweet potatoes
 
 ingredients:
   - name: Sweet potatoes
@@ -84,6 +84,10 @@ featuredImage: images/recipes/GaramMasalaPotatoSoup/GaramMasalaPotatoSoup.jpg
 
 tags:
   - Meal Prep
----
 
-Recipe for GaramMasalaPotatoSoup
+directions:
+  - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam quasi alias voluptatem aliquam temporibus praesentium illo nesciunt reprehenderit? Voluptatum incidunt eius labore perspiciatis nobis nostrum voluptate necessitatibus laboriosam ex.
+  - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam quasi alias voluptatem aliquam temporibus praesentium illo nesciunt reprehenderit? Voluptatum incidunt eius labore perspiciatis nobis nostrum voluptate necessitatibus laboriosam ex.
+  - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam quasi alias voluptatem aliquam temporibus praesentium illo nesciunt reprehenderit? Voluptatum incidunt eius labore perspiciatis nobis nostrum voluptate necessitatibus laboriosam ex.
+  - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam quasi alias voluptatem aliquam temporibus praesentium illo nesciunt reprehenderit? Voluptatum incidunt eius labore perspiciatis nobis nostrum voluptate necessitatibus laboriosam ex.
+---

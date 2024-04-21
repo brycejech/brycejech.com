@@ -1,36 +1,14 @@
 @import "variables";
 
 .page-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
   .page-title {
     margin-top: 0;
-  }
-
-  .page-heading {
-    margin-left: var(--spacing-4);
-  }
-
-  &.has-sidebar {
-    .sidebar {
-      display: none;
-    }
-
-    @media (min-width: 1200px) {
-      $content-width: 75vw;
-
-      &.has-sidebar {
-        .page-content {
-          width: calc(#{$content-width} - #{$nav-width});
-          padding: 0 8%;
-        }
-        .sidebar {
-          position: fixed;
-          width: calc(100vw - #{$content-width});
-          display: block;
-          left: $content-width;
-          top: $top-padding;
-          padding-right: 8%;
-        }
-      }
-    }
   }
 }
