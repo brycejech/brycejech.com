@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/recipes/betterthananythingcake/</loc>
+    <lastmod>2024-10-13T11:32:52-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/desserts/</loc>
+    <lastmod>2024-10-13T11:32:52-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-10-13T11:32:52-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2024-10-13T11:32:52-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-13T11:32:52-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/greenbeancasserole/</loc>
+    <lastmod>2024-10-13T11:15:41-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/home-style/</loc>
+    <lastmod>2024-10-13T11:15:41-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/adventures/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/adventures/chicago/</loc>
-    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/adventures/las-vegas/</loc>
@@ -30,12 +48,6 @@
     <lastmod>2022-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/meal-prep/</loc>
-    <lastmod>2022-09-11T10:07:17-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
-    <lastmod>2022-09-11T10:07:17-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-09-11T10:07:17-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/wafflemix/</loc>
