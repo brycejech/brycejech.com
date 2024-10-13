@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home Style on Bryce Jech</title>
+    <link>http://localhost:1313/tags/home-style/</link>
+    <description>Recent content in Home Style on Bryce Jech</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Oct 2024 11:15:41 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/home-style/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Green Bean Casserole</title>
+      <link>http://localhost:1313/recipes/greenbeancasserole/</link>
+      <pubDate>Sun, 13 Oct 2024 11:15:41 -0500</pubDate>
+      <guid>http://localhost:1313/recipes/greenbeancasserole/</guid>
+      <description>Combine green beans, bacon, alfredo, milk, and butter into a baking dish. Cover and cook for 30 min at 350 deg.</description>
+    </item>
+  </channel>
+</rss>

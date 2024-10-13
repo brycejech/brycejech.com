@@ -6,8 +6,15 @@
     <description>Recent content in Heyo! on Bryce Jech</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 11:15:41 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Green Bean Casserole</title>
+      <link>http://localhost:1313/recipes/greenbeancasserole/</link>
+      <pubDate>Sun, 13 Oct 2024 11:15:41 -0500</pubDate>
+      <guid>http://localhost:1313/recipes/greenbeancasserole/</guid>
+      <description>Combine green beans, bacon, alfredo, milk, and butter into a baking dish. Cover and cook for 30 min at 350 deg. Add french onions and cheddar cheese, cook uncovered at 450 deg another 15 minutes.</description>
+    </item>
     <item>
       <title>Chicago - Band Trip</title>
       <link>http://localhost:1313/adventures/chicago/</link>
