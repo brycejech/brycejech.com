@@ -60,7 +60,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: "images/recipes/MatchaCookies/matcha-cookies.jpg"
+featuredImage: "images/recipes/matcha-cookies/matcha-cookies.jpg"
 
 tags:
   - Meal Prep

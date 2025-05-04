@@ -56,7 +56,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/CreamyTomatoSoup/CreamyTomatoSoup.jpg
+featuredImage: images/recipes/creamy-tomato-soup/creamy-tomato-soup.jpg
 
 tags:
   - Meal Prep

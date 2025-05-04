@@ -36,7 +36,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/BeefStroganoff/BeefStroganoff.jpg
+featuredImage: images/recipes/beef-stroganoff/beef-stroganoff.jpg
 
 tags:
   - Quick Meals

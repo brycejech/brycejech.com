@@ -80,7 +80,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/GeniusStew/GeniusStew.jpg
+featuredImage: images/recipes/genius-stew/genius-stew.jpg
 
 tags:
   - Meal Prep

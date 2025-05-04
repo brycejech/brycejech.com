@@ -44,7 +44,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/GreenBeanCasserole/GreenBeanCasserole.jpg
+featuredImage: images/recipes/green-bean-casserole/green-bean-casserole.jpg
 
 tags:
   - Home Style

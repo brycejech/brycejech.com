@@ -80,7 +80,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/GaramMasalaPotatoSoup/GaramMasalaPotatoSoup.jpg
+featuredImage: images/recipes/garam-masala-potato-soup/garam-masala-potato-soup.jpg
 
 tags:
   - Meal Prep

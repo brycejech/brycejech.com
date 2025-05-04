@@ -60,7 +60,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/Chili/Chili.jpg
+featuredImage: images/recipes/chili/chili.jpg
 
 tags:
   - Meal Prep

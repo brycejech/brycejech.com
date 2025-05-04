@@ -48,7 +48,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: "images/recipes/BuffaloChickenDip/buffalo-chicken-dip.jpg"
+featuredImage: "images/recipes/buffalo-chicken-dip/buffalo-chicken-dip.jpg"
 
 tags:
   - Meal Prep

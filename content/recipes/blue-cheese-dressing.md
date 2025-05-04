@@ -52,7 +52,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: "images/recipes/BlueCheeseDressing/blue-cheese-dressing.jpg"
+featuredImage: "images/recipes/blue-cheese-dressing/blue-cheese-dressing.jpg"
 
 tags:
   - Meal Prep

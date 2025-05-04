@@ -68,7 +68,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/CreamyPotatoSoup/CreamyPotatoSoup.jpg
+featuredImage: images/recipes/creamy-potato-soup/creamy-potato-soup.jpg
 
 tags:
   - Meal Prep

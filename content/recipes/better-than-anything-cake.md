@@ -36,7 +36,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/BetterThanAnythingCake/BetterThanAnythingCake.jpg
+featuredImage: images/recipes/better-than-anything-cake/better-than-anything-cake.jpg
 
 tags:
   - Desserts

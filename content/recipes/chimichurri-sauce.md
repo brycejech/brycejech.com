@@ -48,7 +48,7 @@ caloriesPerServing: 0
 prepTime: 20 minutes
 totalTime: 20 minutes
 
-featuredImage: images/recipes/ChimichurriSauce/ChimichurriSauce.jpg
+featuredImage: images/recipes/chimichurri-sauce/chimichurri-sauce.jpg
 
 tags:
   - Sauces

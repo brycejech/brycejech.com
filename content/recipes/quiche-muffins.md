@@ -27,7 +27,7 @@ totalTime: 20 minutes
 tags:
   - health
 
-featuredImage: images/recipes/QuicheMuffins/QuicheMuffins.jpg
+featuredImage: images/recipes/quiche-muffins/quiche-muffins.jpg
 
 tags:
   - Breakfast

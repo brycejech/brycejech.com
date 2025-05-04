@@ -48,7 +48,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/Elote/Elote.jpg
+featuredImage: images/recipes/elote/elote.jpg
 
 tags:
   - Mexican

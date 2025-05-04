@@ -32,7 +32,7 @@ caloriesPerServing: 200
 prepTime: 20 minutes
 totalTime: 25 minutes
 
-featuredImage: images/recipes/BreakfastParfait/BreakfastParfait.jpg
+featuredImage: images/recipes/breakfast-parfait/breakfast-parfait.jpg
 
 tags:
   - Breakfast

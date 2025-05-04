@@ -52,7 +52,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: "images/recipes/MacNCheese/mac-n-cheese.jpg"
+featuredImage: "images/recipes/mac-n-cheese/mac-n-cheese.jpg"
 
 tags:
   - Meal Prep

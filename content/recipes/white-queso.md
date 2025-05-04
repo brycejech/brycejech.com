@@ -44,7 +44,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: images/recipes/WhiteQueso/WhiteQueso.png
+featuredImage: images/recipes/white-queso/white-queso.png
 
 tags:
   - Meal Prep

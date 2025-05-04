@@ -101,7 +101,7 @@ caloriesPerServing: 0
 prepTime: 0 minutes
 totalTime: 0 minutes
 
-featuredImage: "images/recipes/SheppherdsPie/SheppherdsPie.jpg"
+featuredImage: "images/recipes/sheppherds-pie/sheppherds-pie.jpg"
 
 tags:
   - Meal Prep
