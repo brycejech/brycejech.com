@@ -24,9 +24,6 @@ caloriesPerServing: 200
 prepTime: 20 minutes
 totalTime: 20 minutes
 
-tags:
-  - health
-
 featuredImage: images/recipes/quiche-muffins/quiche-muffins.jpg
 
 tags:

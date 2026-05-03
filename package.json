@@ -5,9 +5,8 @@
   "scripts": {
     "format": "prettier content layouts --write"
   },
-  "dependencies": {},
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "prettier": "^3.8.3",
     "prettier-plugin-go-template": "^0.0.15"
   },
   "author": "Bryce Jech <bryce@brycejech.com>",
