@@ -37,24 +37,24 @@ ingredients:
     unit: Tbsp
 
   - name: Flour
-    amount: 1.5
-    unit: cups
+    amount: 1/2
+    unit: cup
 
   - name: Sour cream
-    amount: 1.5
-    unit: cups
+    amount: 1/2
+    unit: cup
 
   - name: Milk
-    amount: 1.5
-    unit: cups
+    amount: 1/2
+    unit: cup
 
   - name: Heavy cream
-    amount: 1.5
-    unit: cups
+    amount: 1/2
+    unit: cup
 
   - name: Cheddar cheese
-    amount: 1.5
-    unit: cups
+    amount: 1/2
+    unit: cup
 
 servings: 0
 servingSize: 0

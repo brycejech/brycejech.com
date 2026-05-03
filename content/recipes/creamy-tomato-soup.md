@@ -32,6 +32,10 @@ ingredients:
     amount: 2
     unit: Tbsp
 
+  - name: Sugar
+    amount: 1
+    unit: Tbsp
+
   - name: Basil
     amount: 8
     unit: leaves
