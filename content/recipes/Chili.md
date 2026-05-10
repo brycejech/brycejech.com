@@ -44,9 +44,29 @@ ingredients:
     amount: 16
     unit: oz
 
-  - name: Water
+  - name: Yeungling lager
     amount: 20
     unit: oz
+
+  - name: Cumin
+    amount: 3
+    unit: Tbsp
+
+  - name: Chili powder
+    amount: 2
+    unit: Tbsp
+
+  - name: Ancho chili powder
+    amount: 2
+    unit: Tbsp
+
+  - name: Smoked paprika
+    amount: 1
+    unit: Tbsp
+
+  - name: Cayenne or Arbol powder
+    amount: 1
+    unit: Tbsp
 
 servings: 0
 servingSize: 0
